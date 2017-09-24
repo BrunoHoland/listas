@@ -1638,3 +1638,13 @@
 </items>
 
 
+
+<items>
+<name>Zoo<name>
+<image>http://minhaserie.org/wp-content/uploads/2017/08/daasdasoptimized-204x280.jpg</image>
+<url>http://minhaserie.org/tvshows/zoo</url>
+<descripition>Quando uma onda de ataques de animais violentos contra seres humanos começa a assolar todo o planeta, o zoólogo renegado Jackson Oz, com sua experiência nos confins da África, terá de descobrir o mistério por trás da pandemia – e Oz terá de correr contra o tempo, pois, à medida que os ataques se tornam mais coordenados e ferozes, diminuem os locais no planeta para as pessoas para se esconderem.  Thriller baseado no best-seller de James Patterson.<descripition>
+</items>
+
+
+
