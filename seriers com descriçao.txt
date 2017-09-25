@@ -10,7 +10,7 @@
 <name>100 Questions<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/492631-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/100-questions</url>
-<descripition><descripition>
+<descripition>100 Questions é uma série criada pelo ator Christopher Moyanihan em sua primeira empreitada nessa área. Trata-se de uma sitcom que gira em torno de Charlotte Payne (Sophie Winkleman), uma jovem que está à procura de seu príncipe encantado.<descripition>
 </items>
 
 
@@ -18,7 +18,7 @@
 <name>12 Monkeys<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/12-monkeys-1a-temporada_t88305_jpg_290x478_upscale_q90-210x280.jpg</image>
 <url>http://minhaserie.org/tvshows/12-monkeys</url>
-<descripition>Com roteiro de Terry Matalas  e Travis Fickett, a história é situada em um mundo  pós-apocalíptico. A humanidade é forçada a viver nos subterrâneos  depois que um vírus mortal é liberado. James Cole, um condenado, é enviado ao passado com o objetivo de reunir  informações sobre o vírus para que os cientistas possam erradicá-lo.<descripition>
+<descripition>Com roteiro de Terry Matalas  e Travis Fickett, a história é situada em um mundo  pós-apocalíptico. A humanidade é forçada a viver nos subterrâneos  depois que um vírus mortal é liberado. James Cole, um condenado, é enviado ao passado com o objetivo de reunir  informações sobre o vírus para que os cientistas possam erradicá-lo.<descripition>
 </items>
 
 
@@ -34,7 +34,7 @@
 <name>1600 Penn<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/936130-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/1600-penn</url>
-<descripition><descripition>
+<descripition>A sitcom gira em torno de uma família que vive na Casa Branca. Bill Pullman, de Torchwood, interpreta o Presidente dos EUA Dale Gilchrist, um viúvo que se casa com Emily Nash Gilchrist (Jenna Elfman, de Dharma e & Greg), uma jovem que se destaca na imprensa como uma mulher bonita e graciosa mas que, em casa, tem dificuldades de lidar com os filhos do marido.<descripition>
 </items>
 
 
@@ -58,7 +58,7 @@
 <name>A Gifted Man<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/869209-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/a-gifted-man</url>
-<descripition><descripition>
+<descripition>Michael Holt (Patrick Wilson) é um brilhante e carismático médico, que vive uma vida de luxo graças a sua obsessão por sua carreira.<descripition>
 </items>
 
 
@@ -122,7 +122,7 @@
 <name>Angie Tribeca<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1198548-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Angie-Tribeca</url>
-<descripition>Na história, Gabriel Black (Holloway) é um ex-fuzileiro naval que atualmente trabalha como oficial da inteligência. Com um microchip implantado em seu cérebro, ele consegue processar as informações como se fosse um computador e acessar internet, WiFi, celulares e satélites. Gabriel realiza missões para a U.S. Cyber Command, unidade que trabalha com segurança tecnológica, sob o comando de Lilian Strand (Marg Helgenberger, de CSI). Para manter Gabriel sob controle, Lilian chama a agente Riley ONeill (Meghan Ory, de Once Upon a Time), que forma dupla com ele em suas missões de campo.<descripition>
+<descripition>Na história, Gabriel Black (Holloway) é um ex-fuzileiro naval que atualmente trabalha como oficial da inteligência. Com um microchip implantado em seu cérebro, ele consegue processar as informações como se fosse um computador e acessar internet, WiFi, celulares e satélites. Gabriel realiza missões para a U.S. Cyber Command, unidade que trabalha com segurança tecnológica, sob o comando de Lilian Strand (Marg Helgenberger, de CSI). Para manter Gabriel sob controle, Lilian chama a agente Riley O?Neill (Meghan Ory, de Once Upon a Time), que forma dupla com ele em suas missões de campo.<descripition>
 </items>
 
 
@@ -130,7 +130,7 @@
 <name>Animal Kingdom<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1138830-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Animal-Kingdom</url>
-<descripition>Josh é um adolescente de 17 anos, vivendo em uma comunidade de surf localizado no sul da Califonia com alguns dos seus irascíveis familiares em Animal Kingdom Online, nesse grandioso cenário, Josh será induzido a uma vida totalmente diferente da antiga no qual será uma vida de irresponsabilidades sem limite algum e mais a frente descobrirá que será financiando por suas atividades criminosas o que se tornará uma situação mais difícil para Josh em Animal Kingdom, por que ele não estar pronto para lidar com a situação e o perigo que vem pela frente gerando uma imensa adrenalina no seriado Animal Kingdom Online. Em certo momento o guarda de segurança, que é um policial clandestino morre com ferimentos gravíssimos  e Smurf acaba criando uma grande discórdia após fazer os garotos destruir o  relógios luxuosos que foram roubados em Animal Kingdom.<descripition>
+<descripition>Josh é um adolescente de 17 anos, vivendo em uma comunidade de surf localizado no sul da Califonia com alguns dos seus irascíveis familiares em Animal Kingdom Online, nesse grandioso cenário, Josh será induzido a uma vida totalmente diferente da antiga no qual será uma vida de irresponsabilidades sem limite algum e mais a frente descobrirá que será financiando por suas atividades criminosas o que se tornará uma situação mais difícil para Josh em Animal Kingdom, por que ele não estar pronto para lidar com a situação e o perigo que vem pela frente gerando uma imensa adrenalina no seriado Animal Kingdom Online. Em certo momento o guarda de segurança, que é um policial clandestino morre com ferimentos gravíssimos  e Smurf acaba criando uma grande discórdia após fazer os garotos destruir o  relógios luxuosos que foram roubados em Animal Kingdom.<descripition>
 </items>
 
 
@@ -178,7 +178,7 @@
 <name>Better Things<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1152037-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Better-Things</url>
-<descripition>Comédia semi-autobiográfica, conta a história de uma atriz, mãe divorciada (personagem de Pamela Adlon) que cria suas três filhas. Apesar de ser atriz, a vida dela não é tão glamourosa quanto se pensa; e ela trabalha para pagar as contas e cuidar das filhas.<descripition>
+<descripition>Comédia semi-autobiográfica, conta a história de uma atriz, mãe divorciada (personagem de Pamela Adlon) que cria suas três filhas. Apesar de ser atriz, a vida dela não é tão glamourosa quanto se pensa; e ela trabalha para pagar as contas e cuidar das filhas.<descripition>
 </items>
 
 
@@ -218,7 +218,7 @@
 <name>Black Sails<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1056760-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/black-sails</url>
-<descripition>  A história começa com Flint, o mais brilhante e temido capitão-pirata de seu tempo, capturando o mais novo membro para seu navio: John Silver, um jovem de língua afiada que roubou um mapa para um tesouro espanhol que Flint está a procura.  Ao mesmo tempo, o capitão e sua tripulação devem lidar com a ameaça da extinção de seu estilo de vida, lutando contra a marinha britânica pela sobrevivência do seu paraíso criminoso: a ilha de New Providence, um local cheio de prostitutas, ladrões, caçadores de recompensas e, é claro, piratas.  Black Sails narra as aventuras do Capitão Flint e seus homens, personagens que apareceram no clássico da literatura escocesa A Ilha do Tesouro, de Robert Louis Stevenson.  Situada na segunda metade do século XVIII, a atração mostrará tais personagens 20 anos antes dos acontecimentos narrados no livro.<descripition>
+<descripition>  A história começa com Flint, o mais brilhante e temido capitão-pirata de seu tempo, capturando o mais novo membro para seu navio: John Silver, um jovem de língua afiada que roubou um mapa para um tesouro espanhol que Flint está a procura.  Ao mesmo tempo, o capitão e sua tripulação devem lidar com a ameaça da extinção de seu estilo de vida, lutando contra a marinha britânica pela sobrevivência do seu paraíso criminoso: a ilha de New Providence, um local cheio de prostitutas, ladrões, caçadores de recompensas e, é claro, piratas.  Black Sails narra as aventuras do Capitão Flint e seus homens, personagens que apareceram no clássico da literatura escocesa A Ilha do Tesouro, de Robert Louis Stevenson.  Situada na segunda metade do século XVIII, a atração mostrará tais personagens 20 anos antes dos acontecimentos narrados no livro.<descripition>
 </items>
 
 
@@ -234,7 +234,7 @@
 <name>Bloodline<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1207158-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Bloodline</url>
-<descripition><descripition>
+<descripition>Bloodline explora os fantasmas sob a superfície de uma família média americana. Os Rayburns trabalharam muito para conquistar seu lugar na sociedade da cidade onde moram.<descripition>
 </items>
 
 
@@ -266,7 +266,7 @@
 <name>Criminal Minds<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1161001-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Criminal-Minds</url>
-<descripition>Suspense centrado numa equipe de elite do FBI especializada em analisar os perfis dos mais temidos serial killers, antecipando seus próximos passos antes que eles voltem a atacar.  Quando não há outras pistas para um caso em série, o FBI logo pede ajuda para a Unidade de Análise Comportamental em Quântico. Enquanto detetives comuns estudam as evidências de um crime, a unidade analisa o comportamento do criminoso para chegar à uma lista de suspeitos. Eles investigam o crime de dentro para fora  sem examinar as evidências no laboratório; ao invés disso, eles estudam o comportamento dos criminosos nas cenas dos crimes ou onde eles vivem ou trabalham, para descobrirem o que eles pensam. Liderando a equipe está o agente especial Jason Gideon (Mandy Patinkin, Dead Like Me, Chicago Hope), o principal analista comportamental do FBI. Os experts do time de Gideon incluem o agente especial Dr. Spencer Reid (Matthew Gray Gubler), um típico gênio com um QI alto e pouca vida social; o agente especial Aaron Hotch (Thomas Gibson, Dharma &amp; Greg), um homem de família capaz de ganhar a confiança das pessoas e descobrir seus segredos; o agente especial Derek Morgan (Shemar Moore, Birds of Prey), um especialistas em crimes obsessivos; e Elle Greenway (Lola Glaudini, Família Soprano), uma agente que é motivada pela agressão não-resolvida que ela sofreu há alguns anos.Cada membro da equipe une suas especialidades únicas enquanto eles apontam as motivações dos predadores e identificam seus gatilhos emocionais na tentativa de impedi-los.<descripition>
+<descripition>Suspense centrado numa equipe de elite do FBI especializada em analisar os perfis dos mais temidos serial killers, antecipando seus próximos passos antes que eles voltem a atacar.  Quando não há outras pistas para um caso em série, o FBI logo pede ajuda para a Unidade de Análise Comportamental em Quântico. Enquanto detetives comuns estudam as evidências de um crime, a unidade analisa o comportamento do criminoso para chegar à uma lista de suspeitos. Eles investigam o crime de dentro para fora ? sem examinar as evidências no laboratório; ao invés disso, eles estudam o comportamento dos criminosos nas cenas dos crimes ou onde eles vivem ou trabalham, para descobrirem o que eles pensam. Liderando a equipe está o agente especial Jason Gideon (Mandy Patinkin, Dead Like Me, Chicago Hope), o principal analista comportamental do FBI. Os experts do time de Gideon incluem o agente especial Dr. Spencer Reid (Matthew Gray Gubler), um típico gênio com um QI alto e pouca vida social; o agente especial Aaron Hotch (Thomas Gibson, Dharma &amp; Greg), um homem de família capaz de ganhar a confiança das pessoas e descobrir seus segredos; o agente especial Derek Morgan (Shemar Moore, Birds of Prey), um especialistas em crimes obsessivos; e Elle Greenway (Lola Glaudini, Família Soprano), uma agente que é motivada pela agressão não-resolvida que ela sofreu há alguns anos.Cada membro da equipe une suas especialidades únicas enquanto eles apontam as motivações dos predadores e identificam seus gatilhos emocionais na tentativa de impedi-los.<descripition>
 </items>
 
 
@@ -274,7 +274,7 @@
 <name>Camelot<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/804751-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/camelot</url>
-<descripition>Com a morte súbita do Rei Uther, o caos ameaça engolir a Grã-Bretanha. Quando o mago Merlin tem visões de um futuro sombrio, ele ajuda o jovem e impetuoso Arthur, um jovem que desde o nascimento é criado como um plebeu e que tem total desconhecimento de sua linhagem real, para tomar a coroa. Mas a fria e meticulosa meia-irmã de Arthur vai lutar até o fim, convocando as forças não naturais para reivindicar a coroa nesta batalha épica pelo controle.<descripition>
+<descripition>Com a morte súbita do Rei Uther, o caos ameaça engolir a Grã-Bretanha. Quando o mago Merlin tem visões de um futuro sombrio, ele ajuda o jovem e impetuoso Arthur, um jovem que desde o nascimento é criado como um plebeu e que tem total desconhecimento de sua linhagem real, para tomar a coroa. Mas a fria e meticulosa meia-irmã de Arthur vai lutar até o fim, convocando as forças não naturais para reivindicar a coroa nesta batalha épica pelo controle.<descripition>
 </items>
 
 
@@ -282,7 +282,7 @@
 <name>Castle<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1099247-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/castle</url>
-<descripition>Conheça Richard Castle: ele é um bem sucedido escritor de mistério de assassinatos, que acabou de matar o seu personagem principal. No entanto, parece que um de seus fãs gostou de seus livros um pouco demais quando um assassino copiador começa a matar pessoas ao redor, como descrito nos livros de Castle. Depois de ter sido interrogado pela polícia, Richard junta forças com a detetive Kate Beckett para resolver este caso. Os dois se tornam parceiros e começam a trabalhar juntos para resolver outros assassinatos em Nova York, juntamente com outros detetives Tony Esposito, Kevin Ryan e Capitão Roy Montgomery. Eles também trabalham com a médica-legista Lanie Parish. A família de Richard inclui sua mãe Martha Rodgers, que era uma diva da Broadway e sua filha Alexis.<descripition>
+<descripition>Conheça Richard Castle: ele é um bem sucedido escritor de mistério de assassinatos, que acabou de matar o seu personagem principal. No entanto, parece que um de seus fãs gostou de seus livros um pouco demais quando um assassino copiador começa a matar pessoas ao redor, como descrito nos livros de Castle. Depois de ter sido interrogado pela polícia, Richard junta forças com a detetive Kate Beckett para resolver este caso. Os dois se tornam parceiros e começam a trabalhar juntos para resolver outros assassinatos em Nova York, juntamente com outros detetives Tony Esposito, Kevin Ryan e Capitão Roy Montgomery. Eles também trabalham com a médica-legista Lanie Parish. A família de Richard inclui sua mãe Martha Rodgers, que era uma diva da Broadway e sua filha Alexis.<descripition>
 </items>
 
 
@@ -290,7 +290,7 @@
 <name>Channel Zero<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1157300-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Channel-Zero</url>
-<descripition><descripition>
+<descripition>A história gira em torno de misteriosos assassinatos que podem estar relacionados a um programa infantil produzido na década de 1980. Mike Painter (Paul Schneider, de Parks and Recreation, The Divide, The Tunnel) é um psicólogo infantil que, quando pequeno, testemunhou o desaparecimento de seu irmão gêmeo Eddie e de mais quatro crianças que viviam na pequena cidade de Iron Hill em 1988.<descripition>
 </items>
 
 
@@ -314,7 +314,7 @@
 <name>Chicago PD<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1099241-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Chicago-PD</url>
-<descripition>Do produtor Dick Wolf e do time de Chicago Fire, este spin-off acompanha os homens e mulheres do Distrito 21 da polícia de Chicago, que se colocam na linha de fogo para proteger a comunidade.  A delegacia é composta por dois grupos: os guardas uniformizados, que patrulham as ruas da cidade; e a unidade de inteligência, responsável por combater os grandes crimes  organizado, tráfico de drogas, assassinatos importantes.<descripition>
+<descripition>Do produtor Dick Wolf e do time de Chicago Fire, este spin-off acompanha os homens e mulheres do Distrito 21 da polícia de Chicago, que se colocam na linha de fogo para proteger a comunidade.  A delegacia é composta por dois grupos: os guardas uniformizados, que patrulham as ruas da cidade; e a unidade de inteligência, responsável por combater os grandes crimes ? organizado, tráfico de drogas, assassinatos importantes.<descripition>
 </items>
 
 
@@ -354,7 +354,7 @@
 <name>Class<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1166433-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Class</url>
-<descripition><descripition>
+<descripition>Os alunos da escola de Coal Hill tem que conviver com a adolescência enquanto tentam sobreviver a perigos fantásticos que começam a passar pelas fendas do espaço-tempo, chegando a Londres.<descripition>
 </items>
 
 
@@ -370,7 +370,7 @@
 <name>Desventuras em Série<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1169699-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/desventuras-em-serie</url>
-<descripition>Baseada na coleção campeã de vendas do escritor Lemony Snicket (também conhecido como Daniel Handler), Desventuras em Série conta a trágica história dos irmãos Baudelaire  Violet, Klaus e Sunny  órfãos sob a guarda do terrível Conde Olaf, que fará de tudo para colocar as mãos na herança das crianças. Os irmãos precisam constantemente despistar Olaf, frustrar seus planos malignos e investigar a misteriosa morte de seus pais.<descripition>
+<descripition>Baseada na coleção campeã de vendas do escritor Lemony Snicket (também conhecido como Daniel Handler), ?Desventuras em Série? conta a trágica história dos irmãos Baudelaire ? Violet, Klaus e Sunny ? órfãos sob a guarda do terrível Conde Olaf, que fará de tudo para colocar as mãos na herança das crianças. Os irmãos precisam constantemente despistar Olaf, frustrar seus planos malignos e investigar a misteriosa morte de seus pais.<descripition>
 </items>
 
 
@@ -386,7 +386,7 @@
 <name>Dark Matter<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1207551-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/dark-matter</url>
-<descripition>Em Dark Matter, a tripulação de uma nave espacial abandonada é despertada da êxtase sem memórias de quem eles são ou como eles chegaram a bordo. Diante de ameaças, eles têm que trabalhar em conjunto para sobreviver a uma viagem carregada com vingança, traição e segredos escondidos. O elenco inclui Zoie Palmer (Lost Girl), Roger Cross (The Strain), Marc Bendavid (Bitten), Anthony Lemke (O Ataque), Melissa ONeil (Les Miserables), Jodelle Ferland (Crepúsculo) e Alex Mallari, Jr (Robocop). Dark Matter é baseado na graphic novel Dark Matter por Joseph Mallozzi e Paul Mullie (da franquia Stargate).<descripition>
+<descripition>Em Dark Matter, a tripulação de uma nave espacial abandonada é despertada da êxtase sem memórias de quem eles são ou como eles chegaram a bordo. Diante de ameaças, eles têm que trabalhar em conjunto para sobreviver a uma viagem carregada com vingança, traição e segredos escondidos. O elenco inclui Zoie Palmer (Lost Girl), Roger Cross (The Strain), Marc Bendavid (Bitten), Anthony Lemke (O Ataque), Melissa O?Neil (Les Miserables), Jodelle Ferland (Crepúsculo) e Alex Mallari, Jr (Robocop). Dark Matter é baseado na graphic novel Dark Matter por Joseph Mallozzi e Paul Mullie (da franquia Stargate).<descripition>
 </items>
 
 
@@ -394,7 +394,7 @@
 <name>DC& Legends of Tomorrow<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1159997-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/dcs-legends-of-tomorrow</url>
-<descripition>No ano de 2166, o imortal vilão Vandal Savage (Casper Crump) está prestes a conquistar sua vitória final e trazer o caos total e a destruição à humanidade. Enquanto o mundo sucumbe, o Mestre do Tempo Richard \"Rip\" Hunter (Arthur Darvill) tenta resolver as coisas por conta própria. Para isso, ele viaja 150 anos no passado a fim de selecionar cuidadosamente um time de heróis e bandidos para parar esta ameaça iminente. Juntos, este grupo inesperado tentará parar um dos vilões mais formidáveis de todos os tempos, ao mesmo tempo em que aprendem não apenas a ser um time, mas também heróis.<descripition>
+<descripition>No ano de 2166, o imortal vilão Vandal Savage (Casper Crump) está prestes a conquistar sua vitória final e trazer o caos total e a destruição à humanidade. Enquanto o mundo sucumbe, o Mestre do Tempo Richard Rip Hunter (Arthur Darvill) tenta resolver as coisas por conta própria. Para isso, ele viaja 150 anos no passado a fim de selecionar cuidadosamente um time de heróis e bandidos para parar esta ameaça iminente. Juntos, este grupo inesperado tentará parar um dos vilões mais formidáveis de todos os tempos, ao mesmo tempo em que aprendem não apenas a ser um time, mas também heróis.<descripition>
 </items>
 
 
@@ -426,7 +426,7 @@
 <name>Designated Survivor<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1146970-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/designated-survivor</url>
-<descripition>A série protagonizada por Kiefer Sutherland é centrada em um funcionário do Gabinete da Casa Branca que é indicado para assumir a presidência dos Estados Unidos após um ataque ter deixado mortos todos acima dele na linha sucessória. O título da série vem do termo sobrevivente designado, que é utilizado quando algum membro do Gabinete está isolado em um local seguro enquanto todos os outros líderes estão reunidos em um único local. A política é usada para preservar a continuidade do governo no caso de alguma catástrofe. O elenco tem ainda Maggie Q (Nikita, Divergente) e Kal Penn (House), com roteiro produzido por Simon Kinberg (Perdido em Marte, X-Men: Apocalypse) e pela Mark Gordon Company.<descripition>
+<descripition>A série protagonizada por Kiefer Sutherland é centrada em um funcionário do Gabinete da Casa Branca que é indicado para assumir a presidência dos Estados Unidos após um ataque ter deixado mortos todos acima dele na linha sucessória. O título da série vem do termo ?sobrevivente designado?, que é utilizado quando algum membro do Gabinete está isolado em um local seguro enquanto todos os outros líderes estão reunidos em um único local. A política é usada para preservar a continuidade do governo no caso de alguma catástrofe. O elenco tem ainda Maggie Q (Nikita, Divergente) e Kal Penn (House), com roteiro produzido por Simon Kinberg (Perdido em Marte, X-Men: Apocalypse) e pela Mark Gordon Company.<descripition>
 </items>
 
 
@@ -442,7 +442,7 @@
 <name>Doctor Who<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/photo5113948166016837562-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Doctor-Who</url>
-<descripition>O Doutor parece ser humano. Ele é bonito, espirituoso, e pode ser confundido com outro homem na rua. Mas ele é um Lorde do Tempo: um alienígena de 900 anos de idade com 2 corações, membro de uma civilização talentosa que dominou a viagem no tempo. O Doutor salva planetas para viver  mais um hobby, na verdade, e ele é muito, muito bom nisso. Ele nos salvou de ameaças alienígenas de tempos atrás  mas quem é ele?<descripition>
+<descripition>O Doutor parece ser humano. Ele é bonito, espirituoso, e pode ser confundido com outro homem na rua. Mas ele é um Lorde do Tempo: um alienígena de 900 anos de idade com 2 corações, membro de uma civilização talentosa que dominou a viagem no tempo. O Doutor salva planetas para viver ? mais um hobby, na verdade, e ele é muito, muito bom nisso. Ele nos salvou de ameaças alienígenas de tempos atrás ? mas quem é ele?<descripition>
 </items>
 
 
@@ -450,7 +450,7 @@
 <name>Dexter<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/09/956095-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/dexter</url>
-<descripition>A série é baseada no livro Darkly Dreaming Dexter, de Jeff Lindsay, e conta a história de Dexter Morgan, um assassino em série que trabalha como analista forense especialista em padrões de dispersão de sangue, no departamento de polícia do Condado de Miami-Dade. Dexter é interpretado por Michael C. Hall. Valendo-se do fato de ser um expert forense em análise sanguínea e de trabalhar no Departamento de Polícia de Miami, Dexter, de um modo bem meticuloso e sem pistas, mata criminosos que a polícia não consegue trazer à Justiça. A série narra a trajetória de sua vida.<descripition>
+<descripition>A série é baseada no livro Darkly Dreaming Dexter, de Jeff Lindsay, e conta a história de Dexter Morgan, um assassino em série que trabalha como analista forense especialista em padrões de dispersão de sangue, no departamento de polícia do Condado de Miami-Dade. Dexter é interpretado por Michael C. Hall. Valendo-se do fato de ser um expert forense em análise sanguínea e de trabalhar no Departamento de Polícia de Miami, Dexter, de um modo bem meticuloso e sem pistas, mata criminosos que a polícia não consegue trazer à Justiça. A série narra a trajetória de sua vida.<descripition>
 </items>
 
 
@@ -474,7 +474,7 @@
 <name>Eye Candy<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1067110-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/eye-candy</url>
-<descripition><descripition>
+<descripition>Criado por Jason Blum, Emmy Grinwis e Catherine Hardwicke, a série é uma adaptação da obra de RL Stine. A história gira em torno de Lindy (Victoria Justice, de Zoey 101 e Victorious), uma jovem especializada em computação que mantém um blog sobre ataques terroristas e suspeitos de assassinato.<descripition>
 </items>
 
 
@@ -490,7 +490,7 @@
 <name>Faking It<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1110720-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/faking-it</url>
-<descripition>Nova série de comédia da MTV norte-americana chamado Faking It, que conta a história de duas melhores amigas que se amam  mas de forma ligeiramente diferente. Depois de inúmeras tentativas fracassadas de se tornarem populares, as meninas são erroneamente consideradas homossexuais e por isso se tornam celebridades na escola. Aproveitando-se dos rumores de que são lésbicas, elas usam os boatos para se promoverem socialmente na escola, sendo seduzidas pela fama recém-descoberta, Karma e Amy decidem manter a trama romântica.<descripition>
+<descripition>Nova série de comédia da MTV norte-americana chamado ?Faking It?, que conta a história de duas melhores amigas que se amam ? mas de forma ligeiramente diferente. Depois de inúmeras tentativas fracassadas de se tornarem populares, as meninas são erroneamente consideradas homossexuais e por isso se tornam celebridades na escola. Aproveitando-se dos rumores de que são lésbicas, elas usam os boatos para se promoverem socialmente na escola, sendo seduzidas pela fama recém-descoberta, Karma e Amy decidem manter a trama romântica.<descripition>
 </items>
 
 
@@ -506,7 +506,7 @@
 <name>Famous in Love<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1187320-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Famous-in-Love</url>
-<descripition><descripition>
+<descripition>Um estudante de faculdade normal obtém sua grande chance em um blockbuster de Hollywood e deve navegar através de uma química inegável com seus dois co-leads, enquanto descobrindo a verdade sobre uma popstar desaparecida.<descripition>
 </items>
 
 
@@ -538,7 +538,7 @@
 <name>Friends<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/27302-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/friends</url>
-<descripition>Seis jovens são unidos por laços familiares, românticos e, principalmente, de amizade, enquanto tentam vingar em Nova York. Rachel é a garota mimada que deixa o noivo no altar para viver com a amiga dos tempos de escola Monica, sistemática e apaixonada pela culinária. Monica é irmã de Ross, um paleontólogo que é abandonado pela esposa, que descobriu ser lésbica. Do outro lado do corredor do apartamento de Monica e Rachel, moram Joey, um ator frustrado, e Chandler, de profissão misteriosa. A turma é completa pela exótica Phoebe. <descripition>
+<descripition>Seis jovens são unidos por laços familiares, românticos e, principalmente, de amizade, enquanto tentam vingar em Nova York. Rachel é a garota mimada que deixa o noivo no altar para viver com a amiga dos tempos de escola Monica, sistemática e apaixonada pela culinária. Monica é irmã de Ross, um paleontólogo que é abandonado pela esposa, que descobriu ser lésbica. Do outro lado do corredor do apartamento de Monica e Rachel, moram Joey, um ator frustrado, e Chandler, de profissão misteriosa. A turma é completa pela exótica Phoebe. <descripition>
 </items>
 
 
@@ -546,7 +546,7 @@
 <name>From Dusk Till Dawn<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/994237-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/From-Dusk-Till-Dawn</url>
-<descripition>Ao longo da fronteira México-EUA, o ladrão de banco Seth Gecko (D. J.  Cotrona) e seu imprevisível e violento irmão, Richard \"Richie\" Gecko  (Zane Holtz) abrem com balas sua trilha rumo ao sul após um assalto a  banco em Abilene, Texas. A série ocorre durante uma noite, seguindo os  irmãos tentando escapar de dois Texas rangers, Earl McGraw (Don Johnson)  e Freddie Gonzalez (Jesse Garcia). No caminho, Seth e Richie encontram o  ex-pastor Jacob Fuller (Robert Patrick) e sua família. Os Geckos os  fazem de reféns e roubam seu trailer para atravessar a fronteira. O caos  se instala quando o grupo faz um desvio para um strip club povoado por  vampiros. Com a lei, os mortos-vivos e alguns dos criminosos mais cruéis  do México em seu percalço, o grupo deve lutar até o amanhecer para  escapar com vida.\n\nA série, mais sombria, expande o enredo do filme, acrescenta novos  personagens e backstories e explora a mitologia mesoamericana por trás  das criaturas dentro do strip club.<descripition>
+<descripition>Ao longo da fronteira México-EUA, o ladrão de banco Seth Gecko (D. J.  Cotrona) e seu imprevisível e violento irmão, Richard Richie Gecko  (Zane Holtz) abrem com balas sua trilha rumo ao sul após um assalto a  banco em Abilene, Texas. A série ocorre durante uma noite, seguindo os  irmãos tentando escapar de dois Texas rangers, Earl McGraw (Don Johnson)  e Freddie Gonzalez (Jesse Garcia). No caminho, Seth e Richie encontram o  ex-pastor Jacob Fuller (Robert Patrick) e sua família. Os Geckos os  fazem de reféns e roubam seu trailer para atravessar a fronteira. O caos  se instala quando o grupo faz um desvio para um strip club povoado por  vampiros. Com a lei, os mortos-vivos e alguns dos criminosos mais cruéis  do México em seu percalço, o grupo deve lutar até o amanhecer para  escapar com vida.\n\nA série, mais sombria, expande o enredo do filme, acrescenta novos  personagens e backstories e explora a mitologia mesoamericana por trás  das criaturas dentro do strip club.<descripition>
 </items>
 
 
@@ -554,7 +554,7 @@
 <name>Gotham<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1158096-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/gotham</url>
-<descripition>O Comissário Gordon é um dos maiores inimigos do submundo do crime e um homem cuja reputação é sinônimo da lei e da ordem. Mas o que sabemos sobre a história de Gordon, desde um jovem detetive até virar comissário de polícia? Como ele fez para percorrer as múltiplas camadas de corrupção que secretamente comandam Gotham City, o local de desova dos maiores criminosos do mundo? E quais as circunstâncias em que estes criminosos foram criados? Gotham é uma origin story dos super-vilões e vigilantes, revelando um capítulo totalmente novo e nunca contado, seguindo a ascensão de um policial numa cidade perigosamente corrupta e à beira do mal, narrando o nascimento de um dos heróis mais populares do nosso tempo. Crescido nos subúrbios da cidade, Gordon romantizava a cidade como uma metrópole glamorosa e excitante, onde seu pai serviu como um bem-sucedido promotor. Agora, como detetive na polícia de Gotham e noivo da jovem Barbara Kean, ele está vivendo um sonho: restaurar sua cidade.<descripition>
+<descripition>O Comissário Gordon é um dos maiores inimigos do submundo do crime e um homem cuja reputação é sinônimo da lei e da ordem. Mas o que sabemos sobre a história de Gordon, desde um jovem detetive até virar comissário de polícia? Como ele fez para percorrer as múltiplas camadas de corrupção que secretamente comandam Gotham City, o local de desova dos maiores criminosos do mundo? E quais as circunstâncias em que estes criminosos foram criados? Gotham é uma ?origin story? dos super-vilões e vigilantes, revelando um capítulo totalmente novo e nunca contado, seguindo a ascensão de um policial numa cidade perigosamente corrupta e à beira do mal, narrando o nascimento de um dos heróis mais populares do nosso tempo. Crescido nos subúrbios da cidade, Gordon romantizava a cidade como uma metrópole glamorosa e excitante, onde seu pai serviu como um bem-sucedido promotor. Agora, como detetive na polícia de Gotham e noivo da jovem Barbara Kean, ele está vivendo um sonho: restaurar sua cidade.<descripition>
 </items>
 
 
@@ -562,7 +562,7 @@
 <name>Greys Anatomy<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1151557-4-optimized-1-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/greys-anatomy</url>
-<descripition>Meredith é uma jovem cirurgiã no Seattle Grace Hospital, onde há o mais rígido programa para residentes de Harvard. Ela e seus colegas Cristina Yang, Izzie Stevens, George O'Malley e Alex Karev, são médicos em um mundo onde o aprendizado pode ser uma questão de vida ou morte, e ainda precisam lidar com os problemas de suas vidas pessoais. O rígido programa de residentes cirúrgicos do Seattle Grace Hospital foi um treinamento brutal, mas agora os antigos estudantes Meredith, Cristina, Izzie e Alex são os mentores de novos internos. Junto com a nova leva, estão George e Lexie Grey, a meia-irmã de Meredith.<descripition>
+<descripition>Meredith é uma jovem cirurgiã no Seattle Grace Hospital, onde há o mais rígido programa para residentes de Harvard. Ela e seus colegas Cristina Yang, Izzie Stevens, George O'Malley e Alex Karev, são médicos em um mundo onde o aprendizado pode ser uma questão de vida ou morte, e ainda precisam lidar com os problemas de suas vidas pessoais. O rígido programa de residentes cirúrgicos do Seattle Grace Hospital foi um treinamento brutal, mas agora os antigos estudantes Meredith, Cristina, Izzie e Alex são os mentores de novos internos. Junto com a nova leva, estão George e Lexie Grey, a meia-irmã de Meredith.<descripition>
 </items>
 
 
@@ -570,7 +570,7 @@
 <name>Grimm<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1039621-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/grimm</url>
-<descripition>Lembra dos contos de fadas que seus pais contavam quando você era criança? Aqueles contos não eram meras alegorias, eram avisos. Nick Burkhardt (David Giuntoli) achou que estava preparado para a realidade de trabalhar como detetive policial até ele começar a ver coisas inexplicáveis. Tudo fica ainda mais complicado quando ele descobre ser um dos últimos descendentes de um grupo de caçadores sobrenaturais chamados Grimms.<descripition>
+<descripition>Lembra dos contos de fadas que seus pais contavam quando você era criança? Aqueles contos não eram meras alegorias, eram avisos. Nick Burkhardt (David Giuntoli) achou que estava preparado para a realidade de trabalhar como detetive policial até ele começar a ver coisas inexplicáveis. Tudo fica ainda mais complicado quando ele descobre ser um dos últimos descendentes de um grupo de caçadores sobrenaturais chamados ?Grimms?.<descripition>
 </items>
 
 
@@ -594,7 +594,7 @@
 <name>Ghost Whisperer<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1013138-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Ghost-Whisperer</url>
-<descripition><descripition>
+<descripition>um antigo chefe religioso da Europa que influenciou os seus seguidores a cometer um suicídio em massa em 1930. O seu próprio suicídio transformou-o num espírito terreno negativo. Durante toda a temporada, Romano vai fazendo aparições a Melinda para a assustar.<descripition>
 </items>
 
 
@@ -602,7 +602,7 @@
 <name>Gilmore Girls<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1030340-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/gilmore-girls</url>
-<descripition>A série conta a história do cotidiano da mãe solteira Lorelai Victoria Gilmore e sua filha Lorelai \"Rory\" Leigh Gilmore que vivem no pequeno povoado fictício de Stars Hollow, em Connecticut, pequena cidade com muitos personagens peculiares e localizada cerca de trinta minutos de Hartford. A série explora diversos assuntos como família, amizades, conflitos de gerações e classes sociais.<descripition>
+<descripition>A série conta a história do cotidiano da mãe solteira Lorelai Victoria Gilmore e sua filha Lorelai Rory Leigh Gilmore que vivem no pequeno povoado fictício de Stars Hollow, em Connecticut, pequena cidade com muitos personagens peculiares e localizada cerca de trinta minutos de Hartford. A série explora diversos assuntos como família, amizades, conflitos de gerações e classes sociais.<descripition>
 </items>
 
 
@@ -610,7 +610,7 @@
 <name>Gilmore Girls: A Year in the Life<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1166099-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/gilmore-girls-a-year-in-the-life</url>
-<descripition>As garotas Gilmore [Girlmore girls] estão de volta em mais quatro episódios memoráveis das vidas de Lorelai, Emily, Rory e dos bravos moradores de Stars Hollow. Nove anos depois que deixamos a excêntrica cidadezinha de Connecticut, \"Gilmore girls: Um ano para recordar\" encontra nossas principais heroínas em uma encruzilhada: o relacionamento de Lorelai com Luke está um tremendo marasmo; a promissora carreira de Rory no jornalismo terminou antes mesmo de começar; e o mundo de Emily virou de cabeça para baixo com a morte de seu adorado marido Richard. \"Gilmore girls: Um ano para recordar\" apresenta quatro episódios de 90 minutos, cada um abrangendo uma estação do ano: inverno, primavera, verão e outuno. E traz de volta tudo, desde a lanchonete da esquina, passando pelo delicioso Dragonfly Inn, até as conversas rápidas, espirituosas e uma história de amor entre mãe e filha como você nunca viu.<descripition>
+<descripition>As garotas Gilmore [Girlmore girls] estão de volta em mais quatro episódios memoráveis das vidas de Lorelai, Emily, Rory e dos bravos moradores de Stars Hollow. Nove anos depois que deixamos a excêntrica cidadezinha de Connecticut, Gilmore girls: Um ano para recordar encontra nossas principais heroínas em uma encruzilhada: o relacionamento de Lorelai com Luke está um tremendo marasmo; a promissora carreira de Rory no jornalismo terminou antes mesmo de começar; e o mundo de Emily virou de cabeça para baixo com a morte de seu adorado marido Richard. Gilmore girls: Um ano para recordar apresenta quatro episódios de 90 minutos, cada um abrangendo uma estação do ano: inverno, primavera, verão e outuno. E traz de volta tudo, desde a lanchonete da esquina, passando pelo delicioso Dragonfly Inn, até as conversas rápidas, espirituosas e uma história de amor entre mãe e filha como você nunca viu.<descripition>
 </items>
 
 
@@ -618,7 +618,7 @@
 <name>Girl Meets World<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1077134-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Girl-Meets-World</url>
-<descripition>Continuação da série juvenil O Mundo É dos Jovens (Boy Meets World),  sucesso da TV dos anos 1990. Girl Meets World seguirá a jovem Riley  (Blanchard) e sua melhor amiga Maya (Sabrina Carpenter) durante a sua  vida escolar. Cory(Ben Savage) agora virou professor da mesma escola que  a filha estuda, enquanto Topanga (Danielle Fishel) tem uma lanchonete,  famosa por seu pudim.<descripition>
+<descripition>Continuação da série juvenil ?O Mundo É dos Jovens? (Boy Meets World),  sucesso da TV dos anos 1990. ?Girl Meets World? seguirá a jovem Riley  (Blanchard) e sua melhor amiga Maya (Sabrina Carpenter) durante a sua  vida escolar. Cory(Ben Savage) agora virou professor da mesma escola que  a filha estuda, enquanto Topanga (Danielle Fishel) tem uma lanchonete,  famosa por seu pudim.<descripition>
 </items>
 
 
@@ -658,7 +658,7 @@
 <name>Heartbeat<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1131949-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/heartbeat</url>
-<descripition><descripition>
+<descripition>A Dra. Alex Panttiere (Melissa George) é uma das poucas médicas-cirurgiãs a fazer transplante de coração. Ela leva um olhar diferenciado e inovado aos seus pacientes a cada semana, enquanto balanceia as complicações de sua vida profissional e da vida amorosa. A série é inspirada na história real da Dra. Kathy Magliato.<descripition>
 </items>
 
 
@@ -666,7 +666,7 @@
 <name>Hellcats<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1195485-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Hellcats</url>
-<descripition><descripition>
+<descripition>Hellcats contará a história de uma jovem pré-estudante de direito (Aly Michalka) que tem seu mundo abalado quando perde a bolsa de estudos e para garantir uma nova, tem que entrar para a equipe de líderes de torcida.<descripition>
 </items>
 
 
@@ -682,7 +682,7 @@
 <name>Humans<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1084260-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Humans</url>
-<descripition>Uma adaptação da série sueca Real Humans, produzida por Shine's Kudos, situa-se num presente paralelo onde o mais recente gadget essencial para qualquer família é um 'Synth'  um servo robótico altamente desenvolvido semelhante ao seu homólogo vivo. Na esperança de transformar a maneira de como eles vivem, um casal suburbano, Laura e Joe, compram um synth remodelado apenas para descobrir que compartilhar a vida com uma máquina tem consequências arrepiantes.<descripition>
+<descripition>Uma adaptação da série sueca Real Humans, produzida por Shine's Kudos, situa-se num presente paralelo onde o mais recente gadget essencial para qualquer família é um 'Synth' ? um servo robótico altamente desenvolvido semelhante ao seu homólogo vivo. Na esperança de transformar a maneira de como eles vivem, um casal suburbano, Laura e Joe, compram um synth remodelado apenas para descobrir que compartilhar a vida com uma máquina tem consequências arrepiantes.<descripition>
 </items>
 
 
@@ -690,7 +690,7 @@
 <name>Incorporated<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1172169-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/incorporated</url>
-<descripition><descripition>
+<descripition>Drama de espionagem futurística, novo projeto do canal americano Syfy.<descripition>
 </items>
 
 
@@ -706,7 +706,7 @@
 <name>iZombie<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1194917-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/izombie</url>
-<descripition>A série acompanha Olivia Moore, uma residente médica disciplinada que tem sua vida completamente mapeada, até comparecer a uma festa que, inesperadamente, se transforma em um banquete de zumbis. Agora, fazendo parte do grupo dos mortos-vivos, Liv faz o seu melhor para se misturar e parecer o mais humana possível.  Ela afirma ser gótica e, como não podia deixar de ser, se comporta como uma pessoa diferente, o que traz complicações para suas relações interpessoais  incluindo seu ex-noivo, Major, sua mãe Eva e sua melhor amiga e colega de quarto, Peyton.  Para se alimentar, a garota arruma um trabalho no necrotério de Seattle, para que possa comer cérebros dos corpos que passam por ali. Apesar de ser cuidadosa, o seu excêntrico chefe, Dr. Ravi Chakrabarti, descobre seu segredo e fica empolgado com as possibilidades científicas. Mais tarde, ele ajuda Liv a procurar Blaine, o zumbi responsável por transformá-la.  Logo, Liv percebe que consegue ver uma parte das memórias das pessoas ao comer seus cérebros, o que a leva a ter visões das mortes das pessoas. Para a surpresa tanto do Dr. Ravi quanto do detetive Clive Babineaux, ela dá detalhes das cenas dos crimes e motivações que não pode explicar. Fingindo ser uma médium, ela começa a trabalhar com o detetive. A série é baseada nas HQs de mesmo nome da Vertigo.<descripition>
+<descripition>A série acompanha Olivia Moore, uma residente médica disciplinada que tem sua vida completamente mapeada, até comparecer a uma festa que, inesperadamente, se transforma em um banquete de zumbis. Agora, fazendo parte do grupo dos mortos-vivos, Liv faz o seu melhor para se misturar e parecer o mais humana possível.  Ela afirma ser gótica e, como não podia deixar de ser, se comporta como uma pessoa diferente, o que traz complicações para suas relações interpessoais ? incluindo seu ex-noivo, Major, sua mãe Eva e sua melhor amiga e colega de quarto, Peyton.  Para se alimentar, a garota arruma um trabalho no necrotério de Seattle, para que possa comer cérebros dos corpos que passam por ali. Apesar de ser cuidadosa, o seu excêntrico chefe, Dr. Ravi Chakrabarti, descobre seu segredo e fica empolgado com as possibilidades científicas. Mais tarde, ele ajuda Liv a procurar Blaine, o zumbi responsável por transformá-la.  Logo, Liv percebe que consegue ver uma parte das memórias das pessoas ao comer seus cérebros, o que a leva a ter visões das mortes das pessoas. Para a surpresa tanto do Dr. Ravi quanto do detetive Clive Babineaux, ela dá detalhes das cenas dos crimes e motivações que não pode explicar. Fingindo ser uma médium, ela começa a trabalhar com o detetive. A série é baseada nas HQs de mesmo nome da Vertigo.<descripition>
 </items>
 
 
@@ -714,7 +714,7 @@
 <name>iCarly<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/09/1177348-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/icarly</url>
-<descripition><descripition>
+<descripition>Quando Carly Shay torna-se uma sensação na internet depois de lançar seu elenco Web a partir de um estúdio no terceiro andar improvisado, ele coloca seus relacionamentos e amigos para o teste de como eles lidam com sucesso encontrado novo.<descripition>
 </items>
 
 
@@ -738,7 +738,7 @@
 <name>Kevin Can Wait<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1152934-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/kevin-can-wait</url>
-<descripition>Kevin James interpreta um policial recentemente aposentado ansioso para passar mais tempo, com calma e sem preocupação, com sua esposa e três filhos, mas descobre que ele irá enfrentar desafios mais difíceis em casa do que nas ruas.  No elenco estão também: Erinn Hayes (Childrens Hospital) como a esposa do personagem principal; Taylor Spreitler, Mary-Charles Jones, James Digiacomo, Ryan Cartwright, Leonard Earl Howze, Lenny Venito e Gary Valentine completam o elenco.<descripition>
+<descripition>Kevin James interpreta um policial recentemente aposentado ansioso para passar mais tempo, com calma e sem preocupação, com sua esposa e três filhos, mas descobre que ele irá enfrentar desafios mais difíceis em casa do que nas ruas.  No elenco estão também: Erinn Hayes (Childrens Hospital) como a esposa do personagem principal; Taylor Spreitler, Mary-Charles Jones, James Digiacomo, Ryan Cartwright, Leonard Earl Howze, Lenny Venito e Gary Valentine completam o elenco.<descripition>
 </items>
 
 
@@ -746,7 +746,7 @@
 <name>Kyle Xy<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/09/1194767-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Kyle-Xy</url>
-<descripition><descripition>
+<descripition>Um adolescente talentoso chamado Kyle é encontrado vagando no trânsito sem lembrança de quem ele é, ou de onde ele vem, quando a psicóloga Nicole Trager o leva. Nicole e sua família tentam ajudar Kyle a desbloquear seu passado, mas logo percebem que seu comportamento é longe do normal.<descripition>
 </items>
 
 
@@ -762,7 +762,7 @@
 <name>Lost Girl<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/914700-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Lost-Girl</url>
-<descripition><descripition>
+<descripition>Bo acreditava ser uma garota normal, até drenar até a morte seu primeiro namorado. Foi aí que ela descobriu que na verdade é um sucubus, um demônio que se alimenta da energia sexual, adotada por uma família humana. A jovem se recusa a assumir seu lugar no mundo sobrenatural e se transforma em uma renegada. Abandonando de vez sua antiga vida e passando a viver longe da família e dos amigos, luta para oprimir sua natureza enquanto procura respostas sobre suas origens.<descripition>
 </items>
 
 
@@ -770,7 +770,7 @@
 <name>Love<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1187189-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/love</url>
-<descripition><descripition>
+<descripition>A descarada Mickey (Gillian Jacobs) e o nerd bonzinho Gus (Paul Rust) são bem diferentes um do outro.<descripition>
 </items>
 
 
@@ -786,7 +786,7 @@
 <name>Luke Cage<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1152387-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/luke-cage</url>
-<descripition>Luke Cage é um ex-membro de gangue que foi preso acusado de um crime que não cometeu. Um experimento sabotado deu a ele super-força e resistência, e ele escapa da prisão para se tornar um super-herói de aluguel. Mike Colter interpretará Luke Cage, um homem com super-força e pele impenetrável que agora luta contra o crime. Mahershala Ali será Cornell Stokes, Alfre Woodard será a Mariah Dillard, Simone Missick será a Misty Knight, Theo Rossi como Shades, e Frank Whaley será Rafael Scarfe que também fazem parte do elenco.<descripition>
+<descripition>Luke Cage é um ex-membro de gangue que foi preso acusado de um crime que não cometeu. Um experimento sabotado deu a ele super-força e resistência, e ele escapa da prisão para se tornar um super-herói de aluguel. Mike Colter interpretará Luke Cage, um homem com super-força e pele impenetrável que agora luta contra o crime. Mahershala Ali será Cornell Stokes, Alfre Woodard será a Mariah Dillard, Simone Missick será a Misty Knight, Theo Rossi como Shades, e Frank Whaley será Rafael Scarfe que também fazem parte do elenco.<descripition>
 </items>
 
 
@@ -794,7 +794,7 @@
 <name>Liar<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/09/1222559-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/liar</url>
-<descripition><descripition>
+<descripition>A atração entre Laura Newell e Andrew Ellis leva os dois a se aproximarem cada vez mais. O casal marca o primeiro encontro, sem saber que este programa seria o início de uma mudança em suas vidas: a partir dele, uma rede de mentiras começa a se revelar.<descripition>
 </items>
 
 
@@ -810,7 +810,7 @@
 <name>Man with a Plan<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1165916-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/man-with-a-plan</url>
-<descripition><descripition>
+<descripition>Adam (Matt LeBlanc), um empreiteiro, passa a ser encarregado de cuidar das crianças quando sua esposa Andi volta ao trabalho.<descripition>
 </items>
 
 
@@ -834,7 +834,7 @@
 <name>Mozart in The Jungle<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1087756-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/mozart-in-the-jungle</url>
-<descripition><descripition>
+<descripition>A história acompanha a vida de dois personagens que estão em pontos opostos de suas respectivas carreiras.<descripition>
 </items>
 
 
@@ -855,7 +855,7 @@
 
 
 <items>
-<name>Marvels The Defenders<name>
+<name>Marvel?s The Defenders<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1212719-4-optimized-1-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/marvels-the-defenders</url>
 <descripition>A minissérie reúne Matt Murdock (Charlie Cox), o Demolidor; Jessica Jones (Krysten Ritter), Luke Cage (Mike Colter) e Danny Rand (Finn Jones), o Punho de Ferro, e conta a história dos 'heróis imperfeitos de Hell's Kitchen.<descripition>
@@ -874,7 +874,7 @@
 <name>No Tomorrow<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/no-tomorrow-new-poster-promo-pics-210x280.jpg</image>
 <url>http://minhaserie.org/tvshows/no-tomorrow</url>
-<descripition><descripition>
+<descripition>Sarah é uma avaliadora e controladora que se apaixona por Xavier, um viciado em adrenalina que acredita que o mundo está prestes a um acabar.<descripition>
 </items>
 
 
@@ -898,7 +898,7 @@
 <name>Once upon a time Wonderland<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/971697-4-optimized-1-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/once-upon-a-time-wonderland</url>
-<descripition><descripition>
+<descripition>Na série, todos acham que Alice é louca, quando escutam a jovem contar histórias sobre um País das Maravilhas subterrâneo. Os médicos se esforçam em um tratamento que promete fazê-la esquecer de Wonderland – e especialmente do gênio por quem Alice se apaixonou, Cyrus (Peter Gadiot) – mas o Valete de Copas (Michael Socha) e o Coelho Branco (John Lithgow) não deixarão isso acontecer.<descripition>
 </items>
 
 
@@ -906,7 +906,7 @@
 <name>Orange Is The New Black<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1139027-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/orange-is-the-new-black</url>
-<descripition>Piper Chapman (Taylor Schilling) é uma mulher por volta de seus 30 anos que é sentenciada a 15 meses de prisão após ter cometido crimes para sua ex-namorada, a traficante Alex (Laura Prepon)  que não vê há mais de uma década. Piper troca a sua vida confortável de Nova York, com o noivo Larry (Jason Biggs), pelo macacão laranja, e cumpre sua sentença na Penitenciária Feminina de Litchfield. Para sobreviver, ela precisa aprender a conviver com as outras detentas, como Red (Kate Mulgrew), Nicky (Natasha Lyonne), Taystee (Danielle Brooks) e Crazy Eyes (Uzo Aduba). O que Piper não espera é encontrar a ex cumprindo pena no mesmo lugar. <descripition>
+<descripition>Piper Chapman (Taylor Schilling) é uma mulher por volta de seus 30 anos que é sentenciada a 15 meses de prisão após ter cometido crimes para sua ex-namorada, a traficante Alex (Laura Prepon) ? que não vê há mais de uma década. Piper troca a sua vida confortável de Nova York, com o noivo Larry (Jason Biggs), pelo macacão laranja, e cumpre sua sentença na Penitenciária Feminina de Litchfield. Para sobreviver, ela precisa aprender a conviver com as outras detentas, como Red (Kate Mulgrew), Nicky (Natasha Lyonne), Taystee (Danielle Brooks) e Crazy Eyes (Uzo Aduba). O que Piper não espera é encontrar a ex cumprindo pena no mesmo lugar. <descripition>
 </items>
 
 
@@ -930,7 +930,7 @@
 <name>Outcast<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/outcast-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Outcast</url>
-<descripition>A trama de Outcast acompanha Kyle Barnes, um homem que é atormentado por uma possessão desde a infância. Agora adulto, ele embarca em uma jornada espiritual para encontrar respostas  mas o que ele descobre pode significar o fim da vida na Terra como a conhecemos.<descripition>
+<descripition>A trama de Outcast acompanha Kyle Barnes, um homem que é atormentado por uma possessão desde a infância. Agora adulto, ele embarca em uma jornada espiritual para encontrar respostas ? mas o que ele descobre pode significar o fim da vida na Terra como a conhecemos.<descripition>
 </items>
 
 
@@ -946,7 +946,7 @@
 <name>Prison Break<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1194568-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/prison-break</url>
-<descripition>Prison Break foi uma série de televisão de ação transmitida pela Fox com  estréia em 29 de agosto de 2005. Michael Scofield (Wentworth Miller,  Joan of Arcadia) é um homem desesperado numa situação desesperadora.  Seu irmão, Lincoln Burrows (Dominic Purcell, John Doe), está no  corredor da morte e será executado em alguns meses, após ser condenado  por um assassinato que Michael está convencido que Lincoln não  cometeu.Sem outras opções e com o tempo diminuindo, Michael assalta um  banco para que ele seja preso e levado para a penitenciária estadual Fox  River, o mesmo local onde seu irmão está cumprindo pena. Uma vez lá  dentro, Michael um engenheiro civil com as plantas da prisão começa a  executar um elaborado plano para libertar Lincoln e provar a inocência  dele.<descripition>
+<descripition>Prison Break foi uma série de televisão de ação transmitida pela Fox com  estréia em 29 de agosto de 2005. Michael Scofield (Wentworth Miller,  ?Joan of Arcadia?) é um homem desesperado numa situação desesperadora.  Seu irmão, Lincoln Burrows (Dominic Purcell, ?John Doe?), está no  corredor da morte e será executado em alguns meses, após ser condenado  por um assassinato que Michael está convencido que Lincoln não  cometeu.Sem outras opções e com o tempo diminuindo, Michael assalta um  banco para que ele seja preso e levado para a penitenciária estadual Fox  River, o mesmo local onde seu irmão está cumprindo pena. Uma vez lá  dentro, Michael um engenheiro civil com as plantas da prisão começa a  executar um elaborado plano para libertar Lincoln e provar a inocência  dele.<descripition>
 </items>
 
 
@@ -962,7 +962,7 @@
 <name>Polseres Vermelles<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/the-rad-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Polseres-Vermelles</url>
-<descripition><descripition>
+<descripition>Aliando drama e humor negro, Polseres Vermelles retrata o dia-a-dia de um grupo de adolescentes que vivendo em um hospital desenvolvem uma amizade improvável.<descripition>
 </items>
 
 
@@ -978,7 +978,7 @@
 <name>Pure Genius<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1155120-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/pure-genius</url>
-<descripition><descripition>
+<descripition>Um jovem titã da tecnologia do vale do silício tem um plano ambicioso em mente: abrir um hospital com uma nova abordagem sobre a medicina para renovar a medicina e buscar a cura para as doenças mais raras e misteriosas.<descripition>
 </items>
 
 
@@ -986,7 +986,7 @@
 <name>Private Practice<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/Private-Practice-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Private-Practice</url>
-<descripition><descripition>
+<descripition>Spin-off da aclamada Grey’s Anatomy, ‘Private Practice’ mostra como é a vida da Dra. Addison Montgomery, que deixou para trás o Seattle Grace Hospital, o casamento com Derek “Mc Dreamy” e seu relacionamento com Mark “McSteamy”, mudando-se para Santa Monica.<descripition>
 </items>
 
 
@@ -1018,7 +1018,7 @@
 <name>Ravenswood<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/985447-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/ravenswood</url>
-<descripition><descripition>
+<descripition>Derivada de Pretty Little Liars, conta a história da cidade vizinha a Rosewood, chamada Ravenswood. Há gerações, o lugar é assombrado por uma maldição. Quando cinco completos estranhos começam a ser perseguidos, eles decidem investigar a história da cidade em busca de uma maneira de quebrar a maldição.<descripition>
 </items>
 
 
@@ -1026,7 +1026,7 @@
 <name>Red Band Society<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/07/1030659-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/red-band-society</url>
-<descripition><descripition>
+<descripition>Red Band Society, remake da produção espanhola Polseres Vermelles, criada por Albert Espinosa com base em sua experiência de vida.<descripition>
 </items>
 
 
@@ -1042,7 +1042,7 @@
 <name>Reign<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1183869-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/reign</url>
-<descripition>Conta a história da ascenção de Mary Queen of Scots (Adelaide Kane) ao poder, quando ela chega à França aos 15 anos de idade, prometida ao Príncipe Francis, e com suas três melhores amigas como damas-de-companhia. Os detalhes da história secreta da sobrevivência na Corte Francesa, em meio a forças ameaçadoras e muitas intrigas. <descripition>
+<descripition>Conta a história da ascenção de Mary Queen of Scots (Adelaide Kane) ao poder, quando ela chega à França aos 15 anos de idade, prometida ao Príncipe Francis, e com suas três melhores amigas como damas-de-companhia. Os detalhes da história secreta da sobrevivência na Corte Francesa, em meio a forças ameaçadoras e muitas intrigas. <descripition>
 </items>
 
 
@@ -1050,7 +1050,7 @@
 <name>Revenge<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1034590-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Revenge</url>
-<descripition>Riqueza, beleza e status definem as pessoas nessa cidade, mas uma mulher está disposta a destruir todo mundo por vingança. Emily Thorne é nova em Hamptons. Conheceu alguns de seus vizinhos ricos, fez alguns novos amigos e parece combinar com a cidade. Mas alguma coisa é estranha sobre uma jovem garota vivendo sozinha em uma cidade de classe altae a verdade é que Emily não é exatamente nova para a vizinhança. O fato é que essa já foi sua casa um dia, até algo horrível acontecer que arruinou sua família e reputação. Agora Emily está de volta, e voltou para corrigir alguns dos erros da melhor forma que sabe  com vingança.<descripition>
+<descripition>Riqueza, beleza e status definem as pessoas nessa cidade, mas uma mulher está disposta a destruir todo mundo por vingança. Emily Thorne é nova em Hamptons. Conheceu alguns de seus vizinhos ricos, fez alguns novos amigos e parece combinar com a cidade. Mas alguma coisa é estranha sobre uma jovem garota vivendo sozinha em uma cidade de classe alta?e a verdade é que Emily não é exatamente nova para a vizinhança. O fato é que essa já foi sua casa um dia, até algo horrível acontecer que arruinou sua família e reputação. Agora Emily está de volta, e voltou para corrigir alguns dos erros da melhor forma que sabe ? com vingança.<descripition>
 </items>
 
 
@@ -1058,7 +1058,7 @@
 <name>Room 104<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/09/1214836-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/room-104</url>
-<descripition><descripition>
+<descripition>Situado em uma única sala de um hotel médio americano, Sala 104 conta uma história diferente dos personagens variados que passam por ela em cada episódio.<descripition>
 </items>
 
 
@@ -1082,7 +1082,7 @@
 <name>Sons of Anarchy<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/930434-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/sons-of-anarchy</url>
-<descripition>Charming é uma comunidade vigiada por um clube de motociclistas renegados, que protegem a cidade de recém-chegados. Jackson \"Jax\" Teller é um membro da irmandade, que tem sua lealdade ao grupo posta à prova ao testemunhar sua crescente fama e desprezo pelas leis, ao mesmo tempo em que tenta se ajustar à vida de pai. Mas sua tranquilidade é frequentemente perturbada por sua mãe e seu padrasto, dois indivíduos impiedosos que comandam a irmandade.<descripition>
+<descripition>Charming é uma comunidade vigiada por um clube de motociclistas renegados, que protegem a cidade de recém-chegados. Jackson Jax Teller é um membro da irmandade, que tem sua lealdade ao grupo posta à prova ao testemunhar sua crescente fama e desprezo pelas leis, ao mesmo tempo em que tenta se ajustar à vida de pai. Mas sua tranquilidade é frequentemente perturbada por sua mãe e seu padrasto, dois indivíduos impiedosos que comandam a irmandade.<descripition>
 </items>
 
 
@@ -1090,7 +1090,7 @@
 <name>Star<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/star-1-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/star</url>
-<descripition><descripition>
+<descripition>Star (Jude Demorest) é uma jovem durona que decide tomar controle de sua vida depois de crescer num lar adotivo.<descripition>
 </items>
 
 
@@ -1114,7 +1114,7 @@
 <name>Supernatural<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1099259-4-optimized-1-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/supernatural</url>
-<descripition>Há 21 anos, os irmãos Sam e Dean Winchester perderam sua mãe em um trágico e misterioso acidente, no qual as forças sobrenaturais  muito obscuras  estiveram envolvidas. Agora, eles percorrem o país num velho Chevy Impala 1967, em busca de atividades paranormais, lutando com demônios, fantasmas e monstros no caminho.<descripition>
+<descripition>Há 21 anos, os irmãos Sam e Dean Winchester perderam sua mãe em um trágico e misterioso acidente, no qual as forças sobrenaturais ? muito obscuras ? estiveram envolvidas. Agora, eles percorrem o país num velho Chevy Impala 1967, em busca de atividades paranormais, lutando com demônios, fantasmas e monstros no caminho.<descripition>
 </items>
 
 
@@ -1138,7 +1138,7 @@
 <name>Scream Queens<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1076822-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/scream-queens</url>
-<descripition>A Universidade Wallace é abalada por uma série de assassinatos. A Kappa House, a fraternidade mais cobiçada do campus, é governada com mão de ferro (e luva cor-de-rosa) por sua Rainha Bitch Chanel Oberlin (Emma Roberts).  Quando a ex-Kappa Reitoria Munsch (Jamie Lee Curtis) decreta que todos os alunos do campus podem se inscrever para participar da fraternidade, a universidade vira um inferno, como um assassino vestido de diabo causando estragos, fazendo uma vítima a cada episódio.  Scream Queens é uma visão moderna para o formato clássico de suspense em que se tenta descobrir quem é o assassino, no qual todo personagem tem algum motivo para matar, ao mesmo tempo em que pode se tornar a próxima vítima encharcada de sangue.<descripition>
+<descripition>A Universidade Wallace é abalada por uma série de assassinatos. A Kappa House, a fraternidade mais cobiçada do campus, é governada com mão de ferro (e luva cor-de-rosa) por sua Rainha ?Bitch? Chanel Oberlin (Emma Roberts).  Quando a ex-Kappa Reitoria Munsch (Jamie Lee Curtis) decreta que todos os alunos do campus podem se inscrever para participar da fraternidade, a universidade vira um inferno, como um assassino vestido de diabo causando estragos, fazendo uma vítima a cada episódio.  Scream Queens é uma visão moderna para o formato clássico de suspense em que se tenta descobrir quem é o assassino, no qual todo personagem tem algum motivo para matar, ao mesmo tempo em que pode se tornar a próxima vítima encharcada de sangue.<descripition>
 </items>
 
 
@@ -1146,7 +1146,7 @@
 <name>Secrets And Lies<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1148200-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/secrets-and-lies</url>
-<descripition><descripition>
+<descripition>Na história, Ben Gundelach (Ryan Phillippe, de Damages) é um homem casado com Christy (KaDee Strickland, de Private Practice), com quem tem uma filha, Abby (Belle Shouse).<descripition>
 </items>
 
 
@@ -1178,7 +1178,7 @@
 <name>Skam<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/Skam-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Skam</url>
-<descripition><descripition>
+<descripition>Criada por Julie Andem, SKAM gira em torno de um grupo de amigos no início do colegial, que enfrentam conflitos pessoais e sociais do dia a dia.<descripition>
 </items>
 
 
@@ -1186,7 +1186,9 @@
 <name>Skins UK<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1117857-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/skins-uk</url>
-<descripition><descripition>
+<descripition>Todas personagens saíram, excepto Effy Stonem (interpretada por Kaya Scodelario) e Pandora Moon (interpretada por Lisa Backwell), que apareceu em um Episódio da segunda temporada.
+
+<descripition>
 </items>
 
 
@@ -1202,7 +1204,7 @@
 <name>Smallville<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/958248-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/smallville</url>
-<descripition>A série mostra a vida do Superman quando ele ainda era apenas um adolescente, que nem imaginava os poderes que tinha. Ao invés de lidar com vilões e proteger o mundo, Clark Kent terá que enfrentar a escola, as dificuldades de se conquistar as garotas e lidar com seus rígidos, porém amáveis, pais, enquanto seu corpo passa por muitas mudanças  e nem todas elas relacionadas à puberdade: uma super-força, visão de raio-x... Mais forte e mais rápido do que qualquer outra pessoa, Clark não consegue entender porque se sente tão deslocado, principalmente na presença da bela Lana Lang, cujos pais foram mortos da chuva de meteoros que o trouxe à Terra. E numa grande diferença em relação às outras histórias, Clark se torna amigo de seu futuro inimigo, Lex Luthor, após se encontrarem por acaso.<descripition>
+<descripition>A série mostra a vida do Superman quando ele ainda era apenas um adolescente, que nem imaginava os poderes que tinha. Ao invés de lidar com vilões e proteger o mundo, Clark Kent terá que enfrentar a escola, as dificuldades de se conquistar as garotas e lidar com seus rígidos, porém amáveis, pais, enquanto seu corpo passa por muitas mudanças ? e nem todas elas relacionadas à puberdade: uma super-força, visão de raio-x... Mais forte e mais rápido do que qualquer outra pessoa, Clark não consegue entender porque se sente tão deslocado, principalmente na presença da bela Lana Lang, cujos pais foram mortos da chuva de meteoros que o trouxe à Terra. E numa grande diferença em relação às outras histórias, Clark se torna amigo de seu futuro inimigo, Lex Luthor, após se encontrarem por acaso.<descripition>
 </items>
 
 
@@ -1210,7 +1212,7 @@
 <name>South of Hell<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/South-of-Hell-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/South-of-Hell</url>
-<descripition><descripition>
+<descripition>Maria Abascal é uma atraente caçadora de demônios que mora em Savannah, Georgia, que lida com a própria possessão. Com seu irmão, David, ela bravamente luta contra os demônios que vivem em outras pessoas, mas ela mesma também é habitada por um, que se alimenta do mal que ela exorciza de outros.<descripition>
 </items>
 
 
@@ -1218,7 +1220,7 @@
 <name>Suburgatory<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/879831-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/suburgatory</url>
-<descripition><descripition>
+<descripition>Suburgatory conhecido no Brasil Suburgatory – Como sobreviver ao bairro Ideal? é uma série americana, criada por Emily Kapnek e co-produzida pela a Michael Fresco.<descripition>
 </items>
 
 
@@ -1234,7 +1236,7 @@
 <name>Super Fun Night<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/972321-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/super-fun-night</url>
-<descripition><descripition>
+<descripition>A história apresenta a vida de três mulheres que há treze anos buscam formas diferentes de se divertir todas as sextas à noite.<descripition>
 </items>
 
 
@@ -1242,7 +1244,7 @@
 <name>Scorpion<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/09/1161967-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/scorpion</url>
-<descripition>    A série apresenta a vida de Walter (Elyes Gabel, de Body Of Proof), o homem com o quarto QI mais elevado do mundo. Com o objetivo de oferecer soluções para os problemas do mundo, ele monta a Scorpion, uma empresa para a qual recruta pessoas com os melhores intelectos. Agora, além de unirem suas mentes para resolver problemas de relevância global, eles também ajudam uns aos outros a se sentirem parte integrante da sociedade.<descripition>
+<descripition>    A série apresenta a vida de Walter (Elyes Gabel, de Body Of Proof), o homem com o quarto QI mais elevado do mundo. Com o objetivo de oferecer soluções para os problemas do mundo, ele monta a Scorpion, uma empresa para a qual recruta pessoas com os melhores intelectos. Agora, além de unirem suas mentes para resolver problemas de relevância global, eles também ajudam uns aos outros a se sentirem parte integrante da sociedade.<descripition>
 </items>
 
 
@@ -1258,7 +1260,7 @@
 <name>The Walking Dead<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1196608-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-walking-dead</url>
-<descripition>Ao acordar de um coma em um hospital abandonado, o policial Rick Grimes percebe que o mundo que ele conhecia não existe mais porque foi arrasado por uma epidemia de zumbis de dimensões apocalípticas. Perto dali, nos arredores de Atlanta, um grupo luta para sobreviver em um pequeno acampamento enquanto \"os mortos\" os perseguem o tempo todo. Será que Rick e os outros conseguirão manter sua condição humana e sobreviver nesse mundo novo e assustador? Será que eles se salvarão em um cenário tão difícil e enfrentando tantas rivalidades?<descripition>
+<descripition>Ao acordar de um coma em um hospital abandonado, o policial Rick Grimes percebe que o mundo que ele conhecia não existe mais porque foi arrasado por uma epidemia de zumbis de dimensões apocalípticas. Perto dali, nos arredores de Atlanta, um grupo luta para sobreviver em um pequeno acampamento enquanto os mortos os perseguem o tempo todo. Será que Rick e os outros conseguirão manter sua condição humana e sobreviver nesse mundo novo e assustador? Será que eles se salvarão em um cenário tão difícil e enfrentando tantas rivalidades?<descripition>
 </items>
 
 
@@ -1282,7 +1284,7 @@
 <name>The Originals<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/06/1187342-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/The-Originals</url>
-<descripition>The Originals (em português, Os Originais) é um spin-off produzido pela The CW e baseado na série norte-americana The Vampire Diaries. A história centra-se nos vampiros Originais na cidade de Nova Orleans.[1]  A série teve um \"backdoor pilot\" na quarta temporada de The Vampire Diaries, o episódio 20 que foi exibido em 25 de abril de 2013 nos Estados Unidos.[2]  A estreia do episódio piloto aconteceu em 3 de outubro de 2013 nos Estados Unidos, uma quinta-feira, no qual houve uma mudança cronológica dos fatos de The Vampire Diaries: os acontecimentos de Nova Orleans e Mystic Falls ocorrem na mesma linha de tempo para facilitar possíveis crossovers. Julie Plec, produtora de The Vampire Diaries, foi quem assinou o piloto do spin-off. Leslie Morgenstein e Gina Girolamo foram auxiliares na produção. A terceira temporada estreou no dia 08 de outubrode 2015.[3] A série foi renovada para uma quarta temporada com a estreia transferida para 2017.  No Brasil, a série é exibida pela MTV. A 1ª temporada estreou no dia 17 de março de 2014 e foi até o dia 11 de agosto de2014.[4] E entre os dias 10 de novembro de 2014 à 22 de junho de 2015, a emissora exibiu com exclusividade a 2ª temporada, um mês depois de estrear nos EUA e terminar quase um mês depois de ser exibida nos EUA.[5] A 3ª temporada começou a ser exibida no canal no dia 26 de outubro de 2015, duas semanas após estrear nos Estados Unidos.  Em março de 2016, a The CW renovou a série para uma quarta temporada, com sua estreia movida para janeiro de 2017.<descripition>
+<descripition>The Originals (em português, Os Originais) é um spin-off produzido pela The CW e baseado na série norte-americana The Vampire Diaries. A história centra-se nos vampiros Originais na cidade de Nova Orleans.[1]  A série teve um backdoor pilot na quarta temporada de The Vampire Diaries, o episódio 20 que foi exibido em 25 de abril de 2013 nos Estados Unidos.[2]  A estreia do episódio piloto aconteceu em 3 de outubro de 2013 nos Estados Unidos, uma quinta-feira, no qual houve uma mudança cronológica dos fatos de The Vampire Diaries: os acontecimentos de Nova Orleans e Mystic Falls ocorrem na mesma linha de tempo para facilitar possíveis crossovers. Julie Plec, produtora de The Vampire Diaries, foi quem assinou o piloto do spin-off. Leslie Morgenstein e Gina Girolamo foram auxiliares na produção. A terceira temporada estreou no dia 08 de outubrode 2015.[3] A série foi renovada para uma quarta temporada com a estreia transferida para 2017.  No Brasil, a série é exibida pela MTV. A 1ª temporada estreou no dia 17 de março de 2014 e foi até o dia 11 de agosto de2014.[4] E entre os dias 10 de novembro de 2014 à 22 de junho de 2015, a emissora exibiu com exclusividade a 2ª temporada, um mês depois de estrear nos EUA e terminar quase um mês depois de ser exibida nos EUA.[5] A 3ª temporada começou a ser exibida no canal no dia 26 de outubro de 2015, duas semanas após estrear nos Estados Unidos.  Em março de 2016, a The CW renovou a série para uma quarta temporada, com sua estreia movida para janeiro de 2017.<descripition>
 </items>
 
 
@@ -1290,7 +1292,7 @@
 <name>Teen Wolf<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1218802-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/Teen-Wolf</url>
-<descripition>A série mostra a vida de Scott McCall, um estudante e pária social que é mordido por um lobisomem enquanto andava pela floresta. Agora, o garoto tenta seguir normalmente com a vida, mantendo a sua segunda natureza escondida por todos  a não ser de seu amigo Stiles Stilinski, que o ajuda nas transformações de seu corpo e vida, e de um misterioso lobisomem chamado Derek Hale.<descripition>
+<descripition>A série mostra a vida de Scott McCall, um estudante e pária social que é mordido por um lobisomem enquanto andava pela floresta. Agora, o garoto tenta seguir normalmente com a vida, mantendo a sua segunda natureza escondida por todos ? a não ser de seu amigo ?Stiles? Stilinski, que o ajuda nas transformações de seu corpo e vida, e de um misterioso lobisomem chamado Derek Hale.<descripition>
 </items>
 
 
@@ -1298,7 +1300,7 @@
 <name>The 100<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1117845-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-100</url>
-<descripition>Após 97 anos do fim da guerra nuclear que destruiu a vida humana no planeta, uma estação espacial envia 100 jovens presidiários de volta à Terra, na esperança de recolonizá-la.<descripition>
+<descripition>Após 97 anos do fim da guerra nuclear que destruiu a vida humana no planeta, uma estação espacial envia 100 jovens presidiários de volta à Terra, na esperança de recolonizá-la.<descripition>
 </items>
 
 
@@ -1314,7 +1316,7 @@
 <name>The Catch<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1192890-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-catch</url>
-<descripition>Com a produção de Shonda Rhimes e Betsy Beers (ambas de Greys Anatomy, Scandal e How to Get Away With Murder), The Catch acompanha Alice Vaughan, uma grande investigadora particular de Los Angeles e alguém com quem não se deve brincar. Quando seu noivo, Benjamin Jones, aplica um golpe de milhões sobre ela e desaparece, Alice segue em uma missão privada atrás de vingança e não vai parar por nada até capturá-lo.<descripition>
+<descripition>Com a produção de Shonda Rhimes e Betsy Beers (ambas de Grey?s Anatomy, Scandal e How to Get Away With Murder), The Catch acompanha Alice Vaughan, uma grande investigadora particular de Los Angeles e alguém com quem não se deve brincar. Quando seu noivo, Benjamin Jones, aplica um golpe de milhões sobre ela e desaparece, Alice segue em uma missão privada atrás de vingança e não vai parar por nada até capturá-lo.<descripition>
 </items>
 
 
@@ -1338,7 +1340,7 @@
 <name>The Curse of Oak Island<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1103396-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-curse-of-oak-island</url>
-<descripition><descripition>
+<descripition>Ao largo da Nova Escócia, há uma pequena ilha envolta em mistério. No século XVIII, avistaram-se lá estranhas luzes à noite e a pessoa enviada para as investigar desapareceu.<descripition>
 </items>
 
 
@@ -1346,7 +1348,7 @@
 <name>The Exorcist<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1218371-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-exorcist</url>
-<descripition>Dois homens muito diferentes dirigem seus esforços a um caso terrível de possessão demoníaca numa família local, e se vêem cara a cara com o mal verdadeiro. Um deles é o padre Thomas Ortega (Alfonso Herrera), um homem progressista e compassivo que lidera uma paróquia pequena nos arredores de Chicago. Angela Rance (Geena Davis), a matriarca de uma das famílias do rebanho de Thomas, pede sua ajuda para lidar com a entidade que está dominando a sua casa, lhe dando pesadelos recorrentes, fazendo barulhos dentro das paredes para assustar Casey (Hannah Kasulka), sua filha mais nova, transformando a mais velha, Katherine (Brianne Howey) numa ermitã que não quer sair do quarto, e fazendo com que seu marido Henry (Alan Ruck) enlouqueça lentamente. Thomas se encontra então com Marcus Brennan (Ben Daniels), um templário moderno, treinado a vida inteira para ser implacável em sua luta contra o mal. Os dois precisam se unir para completar o desafio que nenhum dos dois conseguiria completar sozinho.<descripition>
+<descripition>Dois homens muito diferentes dirigem seus esforços a um caso terrível de possessão demoníaca numa família local, e se vêem cara a cara com o mal verdadeiro. Um deles é o padre Thomas Ortega (Alfonso Herrera), um homem progressista e compassivo que lidera uma paróquia pequena nos arredores de Chicago. Angela Rance (Geena Davis), a matriarca de uma das famílias do rebanho de Thomas, pede sua ajuda para lidar com a entidade que está dominando a sua casa, lhe dando pesadelos recorrentes, fazendo barulhos dentro das paredes para assustar Casey (Hannah Kasulka), sua filha mais nova, transformando a mais velha, Katherine (Brianne Howey) numa ermitã que não quer sair do quarto, e fazendo com que seu marido Henry (Alan Ruck) enlouqueça lentamente. Thomas se encontra então com Marcus Brennan (Ben Daniels), um templário moderno, treinado a vida inteira para ser implacável em sua luta contra o mal. Os dois precisam se unir para completar o desafio que nenhum dos dois conseguiria completar sozinho.<descripition>
 </items>
 
 
@@ -1442,13 +1444,13 @@
 <name>The Paradise<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/981500-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/The-Paradise</url>
-<descripition><descripition>
+<descripition>The Paradise conta a história de Denise Lovett (Joanna Vanderham), uma jovem sem uma visão de futuro, que trabalha em uma loja de departamentos chamada The Paradise, e se apaixona pelo imprudente dono da loja, John Moray (Emun Elliott).<descripition>
 </items>
 
 
 
 <items>
-<name>The Real ONeals<name>
+<name>The Real O?Neals<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/981500-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/The-Paradise</url>
 <descripition>Uma família católica perfeita vê sua vida tomar um rumo inesperado quando algumas verdades são reveladas. Em vez de se arruinarem, todos param de fingirem serem perfeitos e começam a ser reais.<descripition>
@@ -1459,7 +1461,7 @@
 <name>The Returned US<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1141256-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-returned-us</url>
-<descripition>A série (Remake da série francesa \"Les Revenants\") acompanhará a população de uma pequena cidade que é revirada de cabeça para baixo quando várias pessoas que haviam morrido retornam repentinamente, trazendo consigo consequências positivas e prejudiciais.<descripition>
+<descripition>A série (Remake da série francesa Les Revenants) acompanhará a população de uma pequena cidade que é revirada de cabeça para baixo quando várias pessoas que haviam morrido retornam repentinamente, trazendo consigo consequências positivas e prejudiciais.<descripition>
 </items>
 
 
@@ -1491,7 +1493,7 @@
 <name>The Strain<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1217885-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-strain</url>
-<descripition>Um boeing 777 chega no aeroporto JFK, em Nova York, e enquanto está a meio caminho de pousar, de repente para completamente. Todas as persianas são baixadas, e as luzes desligadas. Os canais de comunicação ficaram mudos, mas um alerta foi enviado ao Centro de Controle de Doenças (CDC). O Dr. Ephraim \"Eph\" Goodweather (Corey Stoll) recebe a chamada e embarca no avião. O que ele encontra faz seu sangue gelar.<descripition>
+<descripition>Um boeing 777 chega no aeroporto JFK, em Nova York, e enquanto está a meio caminho de pousar, de repente para completamente. Todas as persianas são baixadas, e as luzes desligadas. Os canais de comunicação ficaram mudos, mas um alerta foi enviado ao Centro de Controle de Doenças (CDC). O Dr. Ephraim Eph Goodweather (Corey Stoll) recebe a chamada e embarca no avião. O que ele encontra faz seu sangue gelar.<descripition>
 </items>
 
 
@@ -1499,7 +1501,7 @@
 <name>The Vampire Diaries<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1100367-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-vampire-diaries</url>
-<descripition>Um triângulo amoroso entre dois vampiros e uma bela jovem, que conquistou uma enorme legião de leitores. Elena: a garota que pode conquistar que quiser. Stefan: soturno e misterioso, ele terá de lutar para proteger Elena dos horrores que assombram seu passado. Damon: sexy, perigoso e guiado por um ódio cego, tudo que ele quer é se vingar de Stefan, o irmão que o traiu. Primeiro volume da série de L. J. Smith deu origem à série de televisão Vampire Diaries, escrita e produzida por Kevin Williamson, roteirista de Dawsons Creek.<descripition>
+<descripition>Um triângulo amoroso entre dois vampiros e uma bela jovem, que conquistou uma enorme legião de leitores. Elena: a garota que pode conquistar que quiser. Stefan: soturno e misterioso, ele terá de lutar para proteger Elena dos horrores que assombram seu passado. Damon: sexy, perigoso e guiado por um ódio cego, tudo que ele quer é se vingar de Stefan, o irmão que o traiu. Primeiro volume da série de L. J. Smith deu origem à série de televisão Vampire Diaries, escrita e produzida por Kevin Williamson, roteirista de Dawson?s Creek.<descripition>
 </items>
 
 
@@ -1513,7 +1515,7 @@
 
 <items>
 <name>Timeless<name>
-<image>http://minhaserie.org/wp-content/uploads/2017/08/1154338-4-optimized-204x280.jpg</image>
+<image>https://image.tmdb.org/t/p/w185_and_h278_bestv2/5FTUOPErJ1C3GFFo7ftBxw7QUHh.jpg</image>
 <url>http://minhaserie.org/tvshows/timeless</url>
 <descripition>O roubo de uma máquina do tempo é o primeiro numa série de crimes temporais misteriosos que levam um cientista, um soldado e m professor de história a se lançarem numa busca desesperada através do passado para interromper o louco que quer destruir os Estados Unidos. Os três precisam tomar cuidado com suas ações, pois nunca se sabe qual movimento gerará consequências irreversíveis.<descripition>
 </items>
@@ -1521,7 +1523,7 @@
 
 <items>
 <name>Touch<name>
-<image>http://minhaserie.org/wp-content/uploads/2017/08/892831-4-optimized-204x280.jpg</image>
+<image>https://baudefilmes.files.wordpress.com/2012/01/touchs1-cartaz.jpg?w=1400</image>
 <url>http://minhaserie.org/tvshows/touch</url>
 <descripition>A trama gira em torno de Martin Bohm (Sutherland), viúvo e pai solteiro que tem dificuldade em se conectar com Jake (David Mazouz), seu filho autista de 11 anos. Depois de diversas tentativas em mantê-lo em uma escola, Bohm recebe a visita de Clea (Gugu Mbatha-Raw), uma assistente social que chega para avaliar o bem-estar de Jake.\n\nTudo muda quando Bohm descobre que Jake tem a habilidade de perceber padrões escondidos que interligam todas as vidas do nosso planeta através de números. Martin percebe que é sua tarefa decifrar os números pelos quais o seu filho está obcecado e descobrir o significado dos mesmos. É aí que Bohm conhece Arthur (Danny Glover), um professor e especialista em crianças que possuem habilidades com números.<descripition>
 </items>
@@ -1529,7 +1531,7 @@
 
 <items>
 <name>Travelers<name>
-<image>http://minhaserie.org/wp-content/uploads/2017/08/1179529-4-optimized-204x280.jpg</image>
+<image>http://www.gstatic.com/tv/thumb/tvbanners/13257200/p13257200_b_v7_aa.jpg</image>
 <url>http://minhaserie.org/tvshows/travelers</url>
 <descripition>Um agente federal está na cola de quatro pessoas que assumem novas personalidades repentinamente, levando a uma descoberta impressionante sobre o futuro da humanidade.<descripition>
 </items>
@@ -1539,7 +1541,7 @@
 <name>The Mindy Project<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1177813-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/The-Mindy-Project</url>
-<descripition><descripition>
+<descripition>A série acompanha jovem obstetra e ginecologista Mindy Lahiri (Mindy Kaling) e como ela lida com seus problemas em sua vida pessoal e profissional.<descripition>
 </items>
 
 
@@ -1552,15 +1554,15 @@
 
 
 <items>
-<name>The Handmaids Tale<name>
+<name>The Handmaid?s Tale<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/09/1200824-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/the-handmaids-tale</url>
-<descripition>Depois que um atentado terrorista ceifa a vida do Presidente dos Estados Unidos e de grande parte dos outros políticos eleitos, uma facção catolica toma o poder com o intuito declarado de restaurar a paz. O grupo transforma o país na República de Gilead, instaurando um regime totalitário baseado nas leis dfo antigo testamento, retirando os direitos das minorias e das mulheres em especial. Em meio a isso tudo, Offred é uma \"handmaid\", ou seja, uma mulher cujo único fim é procriar para manter os níveis demográficos da população. Na sua terceira atribuição, ela é entregue ao Comandante, um oficial de alto escalão do regime, e a relação sai dos rumos planejados pelo sistema.<descripition>
+<descripition>Depois que um atentado terrorista ceifa a vida do Presidente dos Estados Unidos e de grande parte dos outros políticos eleitos, uma facção catolica toma o poder com o intuito declarado de restaurar a paz. O grupo transforma o país na República de Gilead, instaurando um regime totalitário baseado nas leis dfo antigo testamento, retirando os direitos das minorias e das mulheres em especial. Em meio a isso tudo, Offred é uma handmaid, ou seja, uma mulher cujo único fim é procriar para manter os níveis demográficos da população. Na sua terceira atribuição, ela é entregue ao Comandante, um oficial de alto escalão do regime, e a relação sai dos rumos planejados pelo sistema.<descripition>
 </items>
 
 <items>
 <name>Unbreakable Kimmy Schmidt<name>
-<image>http://minhaserie.org/wp-content/uploads/2017/08/1199292-4-optimized-204x280.jpg</image>
+<image>https://image.tmdb.org/t/p/w185_and_h278_bestv2/5rj9fHmVA1r54wjCpPw5ScW0WT2.jpg</image>
 <url>http://minhaserie.org/tvshows/unbreakable-kimmy-schmidt</url>
 <descripition>Kimmy (Ellie Kemper) é uma jovem que, após 15 anos vivendo isolada em um culto, decide que é hora de retomar sua vida e vai para Nova York.<descripition>
 </items>
@@ -1568,7 +1570,7 @@
 
 <items>
 <name>UnREAL<name>
-<image>http://minhaserie.org/wp-content/uploads/2017/08/1138831-4-optimized-204x280.jpg</image>
+<image>https://image.tmdb.org/t/p/w185_and_h278_bestv2/nIKKNCgU7L9dhNS0Ts98SQyJTcw.jpg</image>
 <url>http://minhaserie.org/tvshows/unreal</url>
 <descripition>Nos bastidores de um Programa de TV sobre namoro, Rachel (Shiri Appleby) é a assistente de palco responsável por manipular as ações e reações dos participantes, para dar à atração a vitalidade e o drama que a produção deseja. UnREAL aborda, de maneira bem humorada, um olhar crítico sobre a rotina de programas televisivos não roteirizados. Nesta realidade, participar como competidor pode até ser viciante, mas produzir faz parte de uma realidade completamente diferente.<descripition>
 </items>
@@ -1576,7 +1578,7 @@
 
 <items>
 <name>Van Helsing<name>
-<image>http://minhaserie.org/wp-content/uploads/2017/08/1125930-4-optimized-204x280.jpg</image>
+<image>http://www.gstatic.com/tv/thumb/tvbanners/14494950/p14494950_b_v8_aa.jpg</image>
 <url>http://minhaserie.org/tvshows/van-helsing</url>
 <descripition>Vanessa Van Helsing é ressuscitada depois de cinco anos morta e descobre que o mundo foi tomado por vampiros. Agora ela precisa lutar para manter vivo o legado de seu pai Abraham.<descripition>
 </items>
@@ -1586,7 +1588,7 @@
 <name>Victoria<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/09/1226861-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/victoria</url>
-<descripition>O início de vida da rainha Vitória, de sua ascensão ao trono com 18 anos até seu namoro e casamento com o príncipe Alberto. Vitória governou por 63 anos, foi a monarca mais longeva até ser ultrapassada por Elizabeth II em 9 de setembro de 2015. A amizade íntima com Lorde Melbourne, seu primeiro primeiro-ministro, tornou-se uma fonte popular de fofocas que ameaçava desestabilizar o governo.<descripition>
+<descripition>O início de vida da rainha Vitória, de sua ascensão ao trono com 18 anos até seu namoro e casamento com o príncipe Alberto. Vitória governou por 63 anos, foi a monarca mais longeva até ser ultrapassada por Elizabeth II em 9 de setembro de 2015. A amizade íntima com Lorde Melbourne, seu primeiro primeiro-ministro, tornou-se uma fonte popular de fofocas que ameaçava desestabilizar o governo.<descripition>
 </items>
 
 
@@ -1610,13 +1612,13 @@
 <name>Wayward Pines<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1060222227-4-optimized-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/wayward-pines</url>
-<descripition>A série conta a história do agente do Serviço Secreto Ethan Burke (Matt Dilon), que vai para Wayward Pines, em Ohio, em busca de dois agentes desaparecidos e acaba descobrindo um mistério na região. Ele acaba criando alguns inimigos e se vê mais preso à cidade do que imaginava.  <descripition>
+<descripition>A série conta a história do agente do Serviço Secreto Ethan Burke (Matt Dilon), que vai para Wayward Pines, em Ohio, em busca de dois agentes desaparecidos e acaba descobrindo um mistério na região. Ele acaba criando alguns inimigos e se vê mais preso à cidade do que imaginava.  <descripition>
 </items>
 
 
 <items>
 <name>Westworld<name>
-<image>http://minhaserie.org/wp-content/uploads/2017/08/1156308-4-optimized-204x280.jpg</image>
+<image>https://image.tmdb.org/t/p/w185_and_h278_bestv2/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg</image>
 <url>http://minhaserie.org/tvshows/westworld</url>
 <descripition>Num parque temático, visitantes mergulham num universo onde qualquer desejo pode ser realizado por robôs cuidadosamente programados. Mas algumas destas máquinas desviam do padrão de programação com comportamentos anormais.<descripition>
 </items>
@@ -1624,7 +1626,7 @@
 
 <items>
 <name>Wynonna Earp<name>
-<image>http://minhaserie.org/wp-content/uploads/2017/08/1210467-4-optimized-204x280.jpg</image>
+<image>https://image.tmdb.org/t/p/w185_and_h278_bestv2/vIoB2PwchfZprHhCFExdTkFJ9Ot.jpg</image>
 <url>http://minhaserie.org/tvshows/wynonna-earp</url>
 <descripition>Depois de anos de fuga e em detenção juvenil, Wynonna Earp está finalmente voltando para casa. O único problema é que ninguém em casa quer que ela volte. Mas quando ela se torna a única esperança da cidade de erradicar demônios misteriosos, Wynonna deve escolher de que lado da lei ela quer lutar, enquanto limpa o nome de seu lendário bisavô Wyatt Earp de uma vez por todas.<descripition>
 </items>
@@ -1634,7 +1636,7 @@
 <name>X Company<name>
 <image>http://minhaserie.org/wp-content/uploads/2017/08/1059900-4-optimized-1-204x280.jpg</image>
 <url>http://minhaserie.org/tvshows/x-company</url>
-<descripition><descripition>
+<descripition>Segunda Guerra Mundial. Cinco jovens canadenses, americanos e britânicos são recrutados como agentes em uma perigosa e secreta missão em território alemão. Dentre eles está Alfred Graves (Jack Laskey), que, por sofrer de sinestesia - uma condição neurológica onde o estímulo de um sentido provoca a percepção em outro -, se torna uma arma secreta do projeto. Nos campos localizados a margem do lago Ontário, ele conhece Aurora Luft (Evelyne Brochu), a filha de um judeu alemão que luta contra o nazismo.<descripition>
 </items>
 
 
@@ -1645,6 +1647,3 @@
 <url>http://minhaserie.org/tvshows/zoo</url>
 <descripition>Quando uma onda de ataques de animais violentos contra seres humanos começa a assolar todo o planeta, o zoólogo renegado Jackson Oz, com sua experiência nos confins da África, terá de descobrir o mistério por trás da pandemia – e Oz terá de correr contra o tempo, pois, à medida que os ataques se tornam mais coordenados e ferozes, diminuem os locais no planeta para as pessoas para se esconderem.  Thriller baseado no best-seller de James Patterson.<descripition>
 </items>
-
-
-
