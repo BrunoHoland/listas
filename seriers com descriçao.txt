@@ -1,6 +1,6 @@
 <items>
-<name>volta em no maximo 4<name>
+<name>volta em no maximo 4 h<name>
 <image>http://</image>
 <url>http://</url>
-<descripition>DEsculpe o trans torno em breve volta<descripition>
+<descripition>DEsculpe o transtorno em breve volta<descripition>
 </items>
