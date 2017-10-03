@@ -2,5 +2,5 @@
 <name>volta em no maximo 4<name>
 <image>http://</image>
 <url>http://</url>
-<descripition>DEsculpe o trans torno em breve volta</items>
+<descripition>DEsculpe o trans torno em breve volta<descripition>
 </items>
