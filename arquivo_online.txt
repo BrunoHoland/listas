@@ -134,7 +134,7 @@ def open_file(file):
 def atalizacao():
 	selfAddon = addon
 	addonfolder = selfAddon.getAddonInfo('path')
-	versao = xbmc.translatePath(os.path.join(addonfolder, 'version.txt'))
+	versao = os.path.join(addonfolder, 'default.py')
 	versao_zip_old1 = open_file(versao)
 	link1 = 'https://raw.githubusercontent.com/brunolojino/listas/master/arquivo_online.txt'#aqui update
 	link = makeRequest(link1)
@@ -148,17 +148,17 @@ def atalizacao():
 		lib = os.path.join(path,'default.py')
 		arquivo = open(lib,'wb')
 		arquivo.write(link)
-		f = open(versao,'wb')
-		f.write(link)	
+		#f = open(versao,'wb')
+		#f.write(link)	
 		arquivo.close()
-		f.close()
+		#f.close()
 		response.close()
 		UpdateMe_local_update()
 			
 def UpdateMe_local_update():
 	xbmc.executebuiltin("UpdateLocalAddons")
 	xbmc.executebuiltin("UpdateAddonRepos")      
-	dialog=xbmcgui.Dialog(); dialog.ok( addon_base,  "ESTAMOS ATUALIZANDO O ADD-ON PRECIONE OK ENTRE NOVAMENTE",'')
+	dialog=xbmcgui.Dialog(); dialog.ok( addon_base,  "ESTAMOS ATUALIZANDO O ADD-ON PRECIONE CONFIRMAR  E ENTRE NOVAMENTE",'')
 	sys.exit(0)				
 
 def getSources():
@@ -3401,6 +3401,6 @@ elif mode==122:
 			webbrowser.open(url)
 		else:
 			xbmc.log('###################################                  INICIANDO SISTEMA       '+sistema+'        ################################################################')
-			dialog.ok(addon_base,  "NÄ FUNCIONA EM SISTEMAS ANDROID !!!".decode('unicode_escape'),'')
+			dialog.ok(addon_base,  "NÄO FUNCIONA EM SISTEMAS ANDROID !!!".decode('unicode_escape'),'')
 			sys.exit(0)
    
