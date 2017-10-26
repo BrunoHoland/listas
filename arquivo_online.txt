@@ -125,7 +125,44 @@ def makeRequest(url, headers=None):
                 addon_log('Reason: %s' %e.reason)
                 xbmc.executebuiltin("XBMC.Notification(LiveStreamsPro,We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
 
+def open_file(file):
+    content = open(file, 'r')
+    link = content.read()
+    content.close()
+    return link					
+				
+def atalizacao():
+	selfAddon = addon
+	addonfolder = selfAddon.getAddonInfo('path')
+	versao = xbmc.translatePath(os.path.join(addonfolder, 'version.txt'))
+	versao_zip_old1 = open_file(versao)
+	link1 = 'https://raw.githubusercontent.com/brunolojino/listas/master/arquivo_online.txt'#aqui update
+	link = makeRequest(link1)
+	if versao_zip_old1 != link:    	
+		#xbmcgui.Dialog().ok('[COLOR white][B]'+addon_base+'[/B][/COLOR]','ATUALIZAND','')
+		req = urllib2.Request(link1)
+		req.add_header('User-Agent', 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6)')
+		response = urllib2.urlopen(req)
+		link = response.read()
+		path = addonfolder
+		lib = os.path.join(path,'default.py')
+		arquivo = open(lib,'wb')
+		arquivo.write(link)
+		f = open(versao,'wb')
+		f.write(link)	
+		arquivo.close()
+		f.close()
+		response.close()
+		UpdateMe_local_update()
+			
+def UpdateMe_local_update():
+	xbmc.executebuiltin("UpdateLocalAddons")
+	xbmc.executebuiltin("UpdateAddonRepos")      
+	dialog=xbmcgui.Dialog(); dialog.ok( addon_base,  "ESTAMOS ATUALIZANDO O ADD-ON PRECIONE OK ENTRE NOVAMENTE",'')
+	sys.exit(0)				
+
 def getSources():
+        atalizacao()
         try:
             addDir('[COLOR white][B]ADULTO XXX[/COLOR][/B]','url',200,'https://i.imgur.com/ocDjNu7.jpg',FANART,'','','','')
             addDir('[COLOR white][B]MOVIES[/COLOR][/B]','https://goo.gl/GSXBTC',201,'https://i.imgur.com/PqqXAHX.jpg',FANART,'','','','')#DUPLICA ESSA ADD-DIR
