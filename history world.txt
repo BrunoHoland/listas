@@ -1,1 +1,203 @@
-PGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXURvY3VtZW50w6FyaW9zIGluY3LDrXZlaXMhWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQ29NNHFWb2hnRGx3SGFFMzJuQ1Zsd1E8L3V0dWJlPg0KPHRodW1ibmFpbD5odHRwczovL3l0My5nZ3BodC5jb20vLW9nNFlLSWJNNmJRL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBLzJWYmZvREEtRjVZL3MyODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXUhpc3RvcnkgQ2hhbm5lbCBCcmFzaWxbL0NPTE9SXVsvQl08L3RpdGxlPg0KPHV0dWJlPlVDbjg2Y1RaSWloVlRKaVpwbk5pczM3UTwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8tVWlhdTlyLWszRlEvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvNGV3WUItZUNvQ28vczI4OC1jLWstbm8tbW8tcmotYzB4ZmZmZmZmL3Bob3RvLmpwZzwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCg0KDQo8aXRlbT4NCjx0aXRsZT5bQ09MT1Igd2hpdGVdW0JdVmlzw6NvIGRvIE11bmRvIC0gRG9jdW1lbnTDoXJpb3NbL0NPTE9SXVsvQl08L3RpdGxlPg0KPHV0dWJlPlVDY1B1ZDZ0elluWUFkb0ZXTkRpc3UxZzwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8tdHFzQ2J5V3Jzc28vQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvcG8tYzhxc1dHRncvczI4OC1jLWstbm8tbW8tcmotYzB4ZmZmZmZmL3Bob3RvLmpwZzwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCg0KDQo8aXRlbT4NCjx0aXRsZT5bQ09MT1Igd2hpdGVdW0JdRlVMTCBIRCBET0NVTUVOVMOBUklPU1svQ09MT1JdWy9CXTwvdGl0bGU+DQo8dXR1YmU+VUN6cmJCa2xlTUdVaEJWWlBJV3ZETFhnPC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly95dDMuZ2dwaHQuY29tLy1qdERDRnBBMW5OQS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9wSWhvb2tqM19EUS9zMjg4LWMtay1uby1tby1yai1jMHhmZmZmZmYvcGhvdG8uanBnPC90aHVtYm5haWw+DQo8ZmFuYXJ0PjwvZmFuYXJ0Pg0KPC9pdGVtPg0KDQoNCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1PIFBsYW5ldGEgVGVycmFbL0NPTE9SXVsvQl08L3RpdGxlPg0KPHV0dWJlPlVDWTlBR2FWaTNvUFpZREptN2lxWkIyQTwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8tdmpKdFB1c3NrQmsvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvUTVzSnJrZlZUWWcvczI4OC1jLWstbm8tbW8tcmotYzB4ZmZmZmZmL3Bob3RvLmpwZzwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCg0KDQo8aXRlbT4NCjx0aXRsZT5bQ09MT1Igd2hpdGVdW0JdRG9jdW1lbnTDoXJpb3MgQnJhc2lsWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQzZNOExETUVhem50TWE4VHFEQ1liNXc8L3V0dWJlPg0KPHRodW1ibmFpbD5odHRwczovL3l0My5nZ3BodC5jb20vLW5URFVSOGV5SVY4L0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL2tRb0JETUJaU0NvL3MyODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXVZpc8OjbyBkbyBNdW5kbyAtIERvY3VtZW50w6FyaW9zWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQ2NQdWQ2dHpZbllBZG9GV05EaXN1MWc8L3V0dWJlPg0KPHRodW1ibmFpbD5odHRwczovL3l0My5nZ3BodC5jb20vLXRxc0NieVdyc3NvL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL3BvLWM4cXNXR0Z3L3MyODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXURvY3VtZW50w6FyaW9zIFdvcmxkWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQ3VYbHU4bXBrUW12elpEZGJiPC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly95dDMuZ2dwaHQuY29tLy1Ta2doci15XzFDby9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9oZVJjVzVLc0ZTby9zMjg4LWMtay1uby1tby1yai1jMHhmZmZmZmYvcGhvdG8uanBnPC90aHVtYm5haWw+DQo8ZmFuYXJ0PjwvZmFuYXJ0Pg0KPC9pdGVtPg0KDQoNCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1EQVJLIERvY3VtZW50w6FyaW9zWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQ2FDbUVkam1zWURFVS1CbmZSa1Fhd1E8L3V0dWJlPg0KPHRodW1ibmFpbD5odHRwczovL3l0My5nZ3BodC5jb20vLVlrbEpNNHRJclF3L0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL1dQWGVqdURIeHRZL3MyODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXVVmb2xvZ2lhL0bDrXNpY2EgQnJhc2lsWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT51Zm9sb2dpYWZpc2ljYWJyYXNpbDwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8tQXphZkxZcTNaS2cvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvNWk1R2oteUxITDgvczI4OC1jLWstbm8tbW8tcmotYzB4ZmZmZmZmL3Bob3RvLmpwZzwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXUNhbmFsIGRlIERvY3VtZW50w6FyaW9zWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQ1pSdkZMVDBvelZrV1ozMV9DNzYwQWc8L3V0dWJlPg0KPHRodW1ibmFpbD5odHRwczovL2dvby5nbC80NzYwT0Q8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1Eb2NzIFRvZG9zIG9zIERpYXMgRG9jdW1lbnTDoXJpbyB0b2RvIGRpYVsvQ09MT1JdWy9CXTwvdGl0bGU+DQo8dXR1YmU+VUNfN215UmU5R2NUeHZ6LWM4ZVAta3ZRPC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly95dDMuZ2dwaHQuY29tLy1YUjdkR1VISFNOQS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9oemk0RnhzM3ZsMC9zODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQogDQoNCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1Eb2N1bWVudMOhcmlvc1svQ09MT1JdWy9CXTwvdGl0bGU+DQo8dXR1YmU+VUNFdmZMbUgyR19NWFJ0bG5XaWRzYmp3PC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly95dDMuZ2dwaHQuY29tLy0tM3U5ekttU3BlSS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9JZFlZOUxHejZjNC9zODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQogDQogDQoNCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1Eb2N1bWVudMOhcmlvcyBEaXNjb3ZlcnkgQ2hhbm5lbFsvQ09MT1JdWy9CXTwvdGl0bGU+DQo8dXR1YmU+VUNOWnZvSi1JcUFLVzhxUkdyaU9mTFB3PC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly95dDMuZ2dwaHQuY29tLy1CMVJSWnlFN0k3MC9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS83QjJiTkZaRHZVay9zODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQogDQo8aXRlbT4NCjx0aXRsZT5bQ09MT1Igd2hpdGVdW0JdRG9jdW1lbnTDoXJpb3MgWFsvQ09MT1JdWy9CXTwvdGl0bGU+DQo8dXR1YmU+VUMzdGp0cWZmRmJMdHNsRWVKdkVCX253PC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly9nb28uZ2wvdGN0OUNlPC90aHVtYm5haWw+DQo8ZmFuYXJ0PjwvZmFuYXJ0Pg0KPC9pdGVtPg0KDQogDQo8aXRlbT4NCjx0aXRsZT5bQ09MT1Igd2hpdGVdW0JdUmV2b2x1w6fDo28gQ2llbnTDrWZpY2FbL0NPTE9SXVsvQl08L3RpdGxlPg0KPHV0dWJlPlVDUExCWHZvYlRSdkRqUHk0MXk5aEc4ZzwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8tM2R0NGtzWHJRUlUvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvZ09OOE5xdlVGdEkvczg4LWMtay1uby1tby1yai1jMHhmZmZmZmYvcGhvdG8uanBnPC90aHVtYm5haWw+DQo8ZmFuYXJ0PjwvZmFuYXJ0Pg0KPC9pdGVtPg0KIA0KDQo8aXRlbT4NCjx0aXRsZT5bQ09MT1Igd2hpdGVdW0JdU2F5cnVzWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQ3c0SnBCcFJEd1JlejY4QXU4YVRfemc8L3V0dWJlPg0KPHRodW1ibmFpbD5odHRwczovL3l0My5nZ3BodC5jb20vLWhBR2M3aS1uOXRrL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0c5US1YOFpZZk1JL3M4OC1jLWstbm8tbW8tcmotYzB4ZmZmZmZmL3Bob3RvLmpwZzwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCiANCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1TdXBlciBEb2N1bWVudMOhcmlvc1svQ09MT1JdWy9CXTwvdGl0bGU+IA0KPHV0dWJlPlVDQ0k1ZW5sWXJkMEg5NlBLRjE2Q2hUUTwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8tbEhvNjY5elhHYVUvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvNWNPV0dPcnpWdE0vczg4LWMtay1uby1tby1yai1jMHhmZmZmZmYvcGhvdG8uanBnPC90aHVtYm5haWw+DQo8ZmFuYXJ0PjwvZmFuYXJ0Pg0KPC9pdGVtPg0KDQo8aXRlbT4NCjx0aXRsZT5bQ09MT1Igd2hpdGVdW0JdVG9wIERvY3VtZW50w6FyaW9zWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQzdIclZPZ2xyUlBMSmNmbXN2TWUtLVE8L3V0dWJlPg0KPHRodW1ibmFpbD5odHRwczovL3l0My5nZ3BodC5jb20vLUtrdWVDYm5LRmZjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL3RWZS1ucmdnMG1jL3M4OC1jLWstbm8tbW8tcmotYzB4ZmZmZmZmL3Bob3RvLmpwZzwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXVVuaXZlcnNvIGRvIERvY3VtZW50w6FyaW9bL0NPTE9SXVsvQl08L3RpdGxlPg0KPHV0dWJlPlVDbm5YY01QZFpiQjBsdmN2QlE1S0U1ZzwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8tMFNpNXFtY1VoVzQvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvTkJzSDB4YkctR1Uvczg4LWMtay1uby1tby1yai1jMHhmZmZmZmYvcGhvdG8uanBnPC90aHVtYm5haWw+DQo8ZmFuYXJ0PjwvZmFuYXJ0Pg0KPC9pdGVtPg0KDQo8aXRlbT4NCjx0aXRsZT5bQ09MT1Igd2hpdGVdW0JdVW5pdmVyc28gZG8gRG9jdW1lbnTDoXJpbyAyLjBbL0NPTE9SXVsvQl08L3RpdGxlPg0KPHV0dWJlPlVDSkZUQ2FrbUh6RG9xY2hxRkM4UEl0ZzwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8vZ29vLmdsLzU4Q2FxODwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXUNhbmFsIFVmbyBCUlsvQ09MT1JdWy9CXTwvdGl0bGU+DQo8dXR1YmU+VUNTWEZpNGY2WnFCbTJxT2hPd3FWSzFBPC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly95dDMuZ2dwaHQuY29tLy1QUDhYLUd1d1BSUS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9pd1ZMS3hfeFRqQS9zODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1ET0NVTUVOVMOBUklPUyBwdGZlbGljaXRhc1svQ09MT1JdWy9CXTwvdGl0bGU+DQo8dXR1YmU+VUNEU1VHazllV3ZPZkxlQ1Z2Q3MzMWR3PC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly95dDMuZ2dwaHQuY29tLy1PZDVDX3BXbG93TS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9CajAyakh6Nm1oby9zODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1VbHRyYSBEb2N1bWVudMOhcmlvc1svQ09MT1JdWy9CXTwvdGl0bGU+DQo8dXR1YmU+VUM5QWFFWGRTR0ZtOG1ZeVlWcGlpVHp3PC91dHViZT4NCjx0aHVtYm5haWw+aHR0cHM6Ly95dDMuZ2dwaHQuY29tLy1jbTNnV2pIUVhRWS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9IRXhhdjBXYnpvWS9zODgtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCjxpdGVtPg0KPHRpdGxlPltDT0xPUiB3aGl0ZV1bQl1TdXBlciBEb2N1bWVudMOhcmlvcyAyLjBbL0NPTE9SXVsvQl08L3RpdGxlPg0KPHV0dWJlPlVDeU0xRkRJTmMzeUUxSFN4b182SFdmZzwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8teGwzN3N4c004MDgvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvU1kwUG4tSEMtTzgvczEwMC1jLWstbm8tbW8tcmotYzB4ZmZmZmZmL3Bob3RvLmpwZzwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXURvY3VtZW50w6FyaW9zIEVzcGV0YWN1bGFyZXMgMi4wWy9DT0xPUl1bL0JdPC90aXRsZT4NCjx1dHViZT5VQ1JFZHRGeFFZS3c4dkNONGoxc0tKV2c8L3V0dWJlPg0KPHRodW1ibmFpbD5odHRwczovL3l0My5nZ3BodC5jb20vLUMxQzVWOVpDUGkwL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL1ZncVpvNFllY1RzL3MxMDAtYy1rLW5vLW1vLXJqLWMweGZmZmZmZi9waG90by5qcGc8L3RodW1ibmFpbD4NCjxmYW5hcnQ+PC9mYW5hcnQ+DQo8L2l0ZW0+DQoNCg0KPGl0ZW0+DQo8dGl0bGU+W0NPTE9SIHdoaXRlXVtCXURvY3VtZW50w6FyaW9zIEV2b2x1w6fDo29bL0NPTE9SXVsvQl08L3RpdGxlPg0KPHV0dWJlPlVDdzB4VHhrZTRGeWRWZFNqMlpHY0RSQTwvdXR1YmU+DQo8dGh1bWJuYWlsPmh0dHBzOi8veXQzLmdncGh0LmNvbS8teGVGZnF3UTdnbHcvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvV1lBTG8yT3J0OHMvczEwMC1jLWstbm8tbW8tcmotYzB4ZmZmZmZmL3Bob3RvLmpwZzwvdGh1bWJuYWlsPg0KPGZhbmFydD48L2ZhbmFydD4NCjwvaXRlbT4NCg==
+<item>
+<title>[COLOR white][B]Documentários incríveis![/COLOR][/B]</title>
+<utube>UCoM4qVohgDlwHaE32nCVlwQ</utube>
+<thumbnail>https://yt3.ggpht.com/-og4YKIbM6bQ/AAAAAAAAAAI/AAAAAAAAAAA/2VbfoDA-F5Y/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]History Channel Brasil[/COLOR][/B]</title>
+<utube>UCn86cTZIihVTJiZpnNis37Q</utube>
+<thumbnail>https://yt3.ggpht.com/-Uiau9r-k3FQ/AAAAAAAAAAI/AAAAAAAAAAA/4ewYB-eCoCo/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]Visão do Mundo - Documentários[/COLOR][/B]</title>
+<utube>UCcPud6tzYnYAdoFWNDisu1g</utube>
+<thumbnail>https://yt3.ggpht.com/-tqsCbyWrsso/AAAAAAAAAAI/AAAAAAAAAAA/po-c8qsWGFw/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]FULL HD DOCUMENTÁRIOS[/COLOR][/B]</title>
+<utube>UCzrbBkleMGUhBVZPIWvDLXg</utube>
+<thumbnail>https://yt3.ggpht.com/-jtDCFpA1nNA/AAAAAAAAAAI/AAAAAAAAAAA/pIhookj3_DQ/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]O Planeta Terra[/COLOR][/B]</title>
+<utube>UCY9AGaVi3oPZYDJm7iqZB2A</utube>
+<thumbnail>https://yt3.ggpht.com/-vjJtPusskBk/AAAAAAAAAAI/AAAAAAAAAAA/Q5sJrkfVTYg/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]Documentários Brasil[/COLOR][/B]</title>
+<utube>UC6M8LDMEazntMa8TqDCYb5w</utube>
+<thumbnail>https://yt3.ggpht.com/-nTDUR8eyIV8/AAAAAAAAAAI/AAAAAAAAAAA/kQoBDMBZSCo/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]Visão do Mundo - Documentários[/COLOR][/B]</title>
+<utube>UCcPud6tzYnYAdoFWNDisu1g</utube>
+<thumbnail>https://yt3.ggpht.com/-tqsCbyWrsso/AAAAAAAAAAI/AAAAAAAAAAA/po-c8qsWGFw/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]Documentários World[/COLOR][/B]</title>
+<utube>UCuXlu8mpkQmvzZDdbb</utube>
+<thumbnail>https://yt3.ggpht.com/-Skghr-y_1Co/AAAAAAAAAAI/AAAAAAAAAAA/heRcW5KsFSo/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]DARK Documentários[/COLOR][/B]</title>
+<utube>UCaCmEdjmsYDEU-BnfRkQawQ</utube>
+<thumbnail>https://yt3.ggpht.com/-YklJM4tIrQw/AAAAAAAAAAI/AAAAAAAAAAA/WPXejuDHxtY/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]Ufologia/Física Brasil[/COLOR][/B]</title>
+<utube>ufologiafisicabrasil</utube>
+<thumbnail>https://yt3.ggpht.com/-AzafLYq3ZKg/AAAAAAAAAAI/AAAAAAAAAAA/5i5Gj-yLHL8/s288-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Canal de Documentários[/COLOR][/B]</title>
+<utube>UCZRvFLT0ozVkWZ31_C760Ag</utube>
+<thumbnail>https://goo.gl/4760OD</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Docs Todos os Dias Documentário todo dia[/COLOR][/B]</title>
+<utube>UC_7myRe9GcTxvz-c8eP-kvQ</utube>
+<thumbnail>https://yt3.ggpht.com/-XR7dGUHHSNA/AAAAAAAAAAI/AAAAAAAAAAA/hzi4Fxs3vl0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+
+<item>
+<title>[COLOR white][B]Documentários[/COLOR][/B]</title>
+<utube>UCEvfLmH2G_MXRtlnWidsbjw</utube>
+<thumbnail>https://yt3.ggpht.com/--3u9zKmSpeI/AAAAAAAAAAI/AAAAAAAAAAA/IdYY9LGz6c4/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR white][B]Documentários Discovery Channel[/COLOR][/B]</title>
+<utube>UCNZvoJ-IqAKW8qRGriOfLPw</utube>
+<thumbnail>https://yt3.ggpht.com/-B1RRZyE7I70/AAAAAAAAAAI/AAAAAAAAAAA/7B2bNFZDvUk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR white][B]Documentários X[/COLOR][/B]</title>
+<utube>UC3tjtqffFbLtslEeJvEB_nw</utube>
+<thumbnail>https://goo.gl/tct9Ce</thumbnail>
+<fanart></fanart>
+</item>
+
+ 
+<item>
+<title>[COLOR white][B]Revolução Científica[/COLOR][/B]</title>
+<utube>UCPLBXvobTRvDjPy41y9hG8g</utube>
+<thumbnail>https://yt3.ggpht.com/-3dt4ksXrQRU/AAAAAAAAAAI/AAAAAAAAAAA/gON8NqvUFtI/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+
+<item>
+<title>[COLOR white][B]Sayrus[/COLOR][/B]</title>
+<utube>UCw4JpBpRDwRez68Au8aT_zg</utube>
+<thumbnail>https://yt3.ggpht.com/-hAGc7i-n9tk/AAAAAAAAAAI/AAAAAAAAAAA/G9Q-X8ZYfMI/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR white][B]Super Documentários[/COLOR][/B]</title> 
+<utube>UCCI5enlYrd0H96PKF16ChTQ</utube>
+<thumbnail>https://yt3.ggpht.com/-lHo669zXGaU/AAAAAAAAAAI/AAAAAAAAAAA/5cOWGOrzVtM/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Top Documentários[/COLOR][/B]</title>
+<utube>UC7HrVOglrRPLJcfmsvMe--Q</utube>
+<thumbnail>https://yt3.ggpht.com/-KkueCbnKFfc/AAAAAAAAAAI/AAAAAAAAAAA/tVe-nrgg0mc/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Universo do Documentário[/COLOR][/B]</title>
+<utube>UCnnXcMPdZbB0lvcvBQ5KE5g</utube>
+<thumbnail>https://yt3.ggpht.com/-0Si5qmcUhW4/AAAAAAAAAAI/AAAAAAAAAAA/NBsH0xbG-GU/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Universo do Documentário 2.0[/COLOR][/B]</title>
+<utube>UCJFTCakmHzDoqchqFC8PItg</utube>
+<thumbnail>https://goo.gl/58Caq8</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Canal Ufo BR[/COLOR][/B]</title>
+<utube>UCSXFi4f6ZqBm2qOhOwqVK1A</utube>
+<thumbnail>https://yt3.ggpht.com/-PP8X-GuwPRQ/AAAAAAAAAAI/AAAAAAAAAAA/iwVLKx_xTjA/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]DOCUMENTÁRIOS ptfelicitas[/COLOR][/B]</title>
+<utube>UCDSUGk9eWvOfLeCVvCs31dw</utube>
+<thumbnail>https://yt3.ggpht.com/-Od5C_pWlowM/AAAAAAAAAAI/AAAAAAAAAAA/Bj02jHz6mho/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Ultra Documentários[/COLOR][/B]</title>
+<utube>UC9AaEXdSGFm8mYyYVpiiTzw</utube>
+<thumbnail>https://yt3.ggpht.com/-cm3gWjHQXQY/AAAAAAAAAAI/AAAAAAAAAAA/HExav0WbzoY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Super Documentários 2.0[/COLOR][/B]</title>
+<utube>UCyM1FDINc3yE1HSxo_6HWfg</utube>
+<thumbnail>https://yt3.ggpht.com/-xl37sxsM808/AAAAAAAAAAI/AAAAAAAAAAA/SY0Pn-HC-O8/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]Documentários Espetaculares 2.0[/COLOR][/B]</title>
+<utube>UCREdtFxQYKw8vCN4j1sKJWg</utube>
+<thumbnail>https://yt3.ggpht.com/-C1C5V9ZCPi0/AAAAAAAAAAI/AAAAAAAAAAA/VgqZo4YecTs/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]Documentários Evolução[/COLOR][/B]</title>
+<utube>UCw0xTxke4FydVdSj2ZGcDRA</utube>
+<thumbnail>https://yt3.ggpht.com/-xeFfqwQ7glw/AAAAAAAAAAI/AAAAAAAAAAA/WYALo2Ort8s/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
