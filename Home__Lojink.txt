@@ -1,7 +1,7 @@
 <categoria>
 <title>Dependências</title>
 <url>Dependências</url>
-<image>C:\Users\crotti\Desktop\download.png</image>
+<image>https://raw.githubusercontent.com/brunolojino/listas/master/kodi-logo.png</image>
 <description>Categorias de dependencias</description>
 <type></type>
 </categoria>
@@ -9,7 +9,7 @@
 <categoria>
 <title>Add-ons de Desenhos</title>
 <url>Add-ons de Desenhos</url>
-<image>C:\Users\crotti\Desktop\images.jpg</image>
+<image>https://raw.githubusercontent.com/brunolojino/listas/master/kodi-logo.png</image>
 <description>Categorias de dependencias</description>
 <type></type>
 </categoria>
@@ -17,7 +17,7 @@
 <categoria>
 <title>Add-ons Torrents</title>
 <url>Add-ons Torrents</url>
-<image>C:\Users\crotti\Desktop\images.png</image>
+<image>https://raw.githubusercontent.com/brunolojino/listas/master/kodi-logo.png</image>
 <description>Categorias de dependencias</description>
 <type></type>
 </categoria>
@@ -25,7 +25,7 @@
 <categoria>
 <title>Add-ons de Filmes e Séries</title>
 <url>Add-ons de Filmes e Séries</url>
-<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Player_torrent/icon.png</image>
+<image>https://raw.githubusercontent.com/brunolojino/listas/master/kodi-logo.png</image>
 <description>Categorias de dependencias</description>
 <type></type>
 </categoria>
@@ -33,7 +33,7 @@
 <categoria>
 <title>Add-ons Variados</title>
 <url>Add-ons Variados</url>
-<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Player_torrent/icon.png</image>
+<image>https://raw.githubusercontent.com/brunolojino/listas/master/kodi-logo.png</image>
 <description>Categorias de dependencias</description>
 <type></type>
 </categoria>
