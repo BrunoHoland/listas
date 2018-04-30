@@ -1,0 +1,182 @@
+<categoria>
+<title>Dependências</title>
+<url>Dependências</url>
+<image>C:\Users\crotti\Desktop\download.png</image>
+<description>Categorias de dependencias</description>
+<type></type>
+</categoria>
+
+<categoria>
+<title>Add-ons de Desenhos</title>
+<url>Add-ons de Desenhos</url>
+<image>C:\Users\crotti\Desktop\images.jpg</image>
+<description>Categorias de dependencias</description>
+<type></type>
+</categoria>
+
+<categoria>
+<title>Add-ons Torrents</title>
+<url>Add-ons Torrents</url>
+<image>C:\Users\crotti\Desktop\images.png</image>
+<description>Categorias de dependencias</description>
+<type></type>
+</categoria>
+
+<categoria>
+<title>Add-ons de Filmes e Séries</title>
+<url>Add-ons de Filmes e Séries</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Player_torrent/icon.png</image>
+<description>Categorias de dependencias</description>
+<type></type>
+</categoria>
+
+<categoria>
+<title>Add-ons Variados</title>
+<url>Add-ons Variados</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Player_torrent/icon.png</image>
+<description>Categorias de dependencias</description>
+<type></type>
+</categoria>
+
+
+<addon>
+<title>REPLAYFOOT Update(10.02.2018)</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Replayfoot/plugin.video.replayfoot-10.02.2018.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Replayfoot/icon.png</image>
+<description>ASSISTA OS MELHORES MOMENTOS DOS MELHORES CAMPEONATOS DO MUNDO.</description>
+<type>Add-ons Variados</type>
+</addon>
+
+
+<addon>
+<title>HISTORY WORLD</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/History%20world/plugin.video.History%20world-1.0.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/History%20world/icon.png</image>
+<description>ASSISTA DIVERSOS DOCUMENTÁRIOS ONLINE.</description>
+<type>Add-ons Variados</type>
+</addon>
+
+
+<addon>
+<title>TORRENT PLAYER</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/plugin.video.Torrent%20Player/plugin.video.Torrent%20Player-1.0.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/plugin.video.Torrent%20Player/icon.png</image>
+<description>ASSISTA DIVERSOS CONTEÚDOS VIA TORRENT.</description>
+<type>Add-ons Torrents</type>
+</addon>
+
+
+<addon>
+<title>DESENHOS LOJINK</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Desenhos%20lojink/plugin.video.desenhos%20lojink.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Desenhos%20lojink/icon.png</image>
+<description>ASSISTA FILMES E DESENHOS DIRETO DO KODI.</description>
+<type>Add-ons de Desenhos</type>
+</addon>
+
+
+<addon>
+<title>NETCINE</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/NetCineUS/plugin.video.NetCineUS.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/NetCineUS/icon.png</image>
+<description>ASSISTA FILMES E SÉRIES DIRETO DO KODI.</description>
+<type>Add-ons de Filmes e Séries</type>
+</addon>
+
+
+<addon>
+<title>MINHA SÉRIE</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/minhaserie/plugin.video.MinhaSerie.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/minhaserie/icon.png</image>
+<description>ASSISTA SÉRIES EM SD DIRETAMENTE PELO KODI...</description>
+<type>Add-ons de Filmes e Séries</type>
+</addon>
+
+
+<addon>
+<title>KBOING</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/kboing/plugin.video.kboing.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/kboing/icon.png</image>
+<description>KBOING ADD-ON COM GRANDE ACERVO DE MÚSICAS...</description>
+<type>Add-ons Variados</type>
+</addon>
+
+
+<addon>
+<title>PIPOCAO</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/pipocao/plugin.video.pipocao.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/pipocao/icon.png</image>
+<description>ASSISTA O MELHOR DE FILMES E SÉRIES</description>
+<type>Add-ons de Filmes e Séries</type>
+</addon>
+
+
+<addon>
+<title>PLAY TORRENTS Update(12.02.2018)</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/playtorrents/plugin.video.playtorrents-12.02.2018.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/playtorrents/icon.png</image>
+<description>ASSISTA FILMES E SÉRIES EM TORRENTS DIRETO NO KODI.</description>
+<type>Add-ons Torrents</type>
+</addon>
+
+
+<addon>
+<title>TOKUSATSU BR</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/tokusatsuBr/plugin.video.tokusatsuBr-2.0.zip?raw=true</url>
+<image>http://i.imgur.com/y3dQliL.png</image>
+<description>ADD-ON BRASILEIRO COM MAIS CONTEÚDOS TOKUSATSUS</description>
+<type>Add-ons de Desenhos</type>
+</addon>
+
+
+<addon>
+<title>MEU-GUIA.TV Update(23.02.2018)</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Meu-guia.tv/plugin.video.MEU-GUIA.TV-2.0.zip?raw=true</url>
+<image>http://i.imgur.com/qTwpnER.png</image>
+<description>VEJA OS HORÁRIOS E PROGRAMAÇÕES DOS CANAIS BRASILEIROS E INTERNACIONAIS DA TV ABERTA E FECHADA.</description>
+<type>Add-ons Variados</type>
+</addon>
+
+
+<addon>
+<title>ANIMESONLINEQ</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Animesonlineq/plugin.video.animesonlineq-1.0.zip?raw=true</url>
+<image>http://i.imgur.com/sXRQG5P.png</image>
+<description>Assista Animes Online, em seu celular, tablet, smartphone e iphone.</description>
+<type>Add-ons de Desenhos</type>
+</addon>
+
+
+<addon>
+<title>YOUTUBE</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Dependencias/plugin.video.youtube-5.4.0.zip?raw=true</url>
+<image>https://kodi.tv/sites/default/files/styles/hero_16_9/public/addon_assets/plugin.video.youtube/fanart/fanart.jpg?itok=zOPqYdsQ</image>
+<description>O YouTube é um dos maiores sites de compartilhamento de vídeos do mundo.
+</description>
+<type>Dependências</type>
+</addon>
+
+
+<addon>
+<title>URLResolver</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Dependencias/script.module.urlresolver-3.0.34.zip?raw=true</url>
+<image>http://kodi-addons.club/data/df/dffeceaa047d6f7c5a97612ab2ca9fa2.png</image>
+<description>Resolva URLs comuns de host de vídeo para serem reproduzidas no XBMC / Kodi, simplifique o desenvolvimento de addons de plug-ins de vídeo que exigem hosts de vários vídeos.</description>
+<type>Dependências</type>
+</addon>
+
+<addon>
+<title>Metahandler</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Dependencias/metahandler/script.module.metahandler.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Dependencias/metahandler/icon.png</image>
+<description>Consulta, armazena e retorna metadados para programas de TV, filmes e videoclipes. [CR] Fontes: [CR] www.thetvdb.com [CR] www.themoviedb.org [CR] www.imdb.com [CR] www.omdbapi.com.br [CR] Este produto usa a API do TMDb, mas não é endossado ou certificada pelo TMDb.</description>
+<type>Dependências</type>
+</addon>
+
+<addon>
+<title>QUASAR 0.9.78 (ANDROID)</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Player_torrent/plugin.video.quasar-0.9.78-Android.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Player_torrent/icon.png</image>
+<description>O Quasar é um mecanismo de busca e transmissão de torrents. Ele não entra em sites de torrent por razões legais. No entanto, ele chama add-ons especialmente criados (chamados de provedores) que são instalados separadamente. [CR] Este projeto é uma bifurcação do bem conhecido, mas não mais mantido projeto Pulsar da steeve.</description>
+<type>Dependências</type>
+</addon>
