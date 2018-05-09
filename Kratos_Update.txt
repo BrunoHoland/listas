@@ -237,15 +237,15 @@ def Pre_link_seuseriado(url):
 		sys.exit()	
 def Check_update():
 	versao='2.0'
-	Source_Update = os.path.join(profile, 'Player_Kratos.py')
+	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
-	if check==versao:
+	if versao==check:
 		pass
 	else:
-        f = open(Source_Update, 'w')
-        f.write(base_update)
-        f.close()
+		f = open(Source_Update, 'w')
+		f.write(base_update)
+		f.close()
 		dialog.ok('-=Kratos Kodi Br =-','Versão do player:'+versao,'Versão do player disponível:'+check,'Atualizando o player do add-on feche e abra novamente.')
 		sys.exit(0)     			
 def Resolvers(url,name,iconimage):   	
