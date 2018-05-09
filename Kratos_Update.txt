@@ -236,7 +236,7 @@ def Pre_link_seuseriado(url):
 	else:
 		sys.exit()	
 def Check_update():
-	versao='4.0'
+	versao='1.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -246,41 +246,45 @@ def Check_update():
 		f = open(Source_Update, 'wb')
 		f.write(base_update)
 		f.close()
-		dialog.ok('-=Kratos Kodi Br =-','Versão do player:'+versao,'Versão do player disponível:'+check,'Atualizando o player do add-on feche e abra novamente.')
-		sys.exit(0)     			
+		dialog.ok('-=Kratos Kodi Br =-','Versão do player: '+versao,'Versão do player disponível: '+check,'Atualizando o player do add-on feche e abra novamente.')
+		sys.exit(0) 
+def Other(url):
+	url2 = url
+	liz = xbmcgui.ListItem(name, iconImage=iconimage)
+	liz.setPath(url2)
+	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 def Resolvers(url,name,iconimage):   	
-	rURL = url
-	if 'pipocao.com' in rURL:
+	rURL = url.replace(';','')
+	if 'pipocao.com' in rURL and not 'Other://' in rURL:
 		link = rURL
 		Pre_link_pipocao(link)		
-	elif 'redecanais' in rURL:
+	elif 'redecanais' in rURL and not 'Other://' in rURL:
 		link = rURL
 		Pre_link_rede_canais(link)
-	elif 'netcine.us' in rURL:
+	elif 'netcine.us' in rURL and not 'Other://' in rURL:
 		link = rURL
-		link = link.replace(';','')
 		xbmc.log(link)
 		Pre_link_netcine(link)	
-	elif 'mmfilmes.tv' in rURL:
+	elif 'mmfilmes.tv' in rURL and not 'Other://' in rURL:
 		link = rURL
-		link = link.replace(';','')
 		xbmc.log(link)
 		Pre_link_mmfilmes(link)					
-	elif 'rapidvideo.com' in rURL:
+	elif 'rapidvideo.com' in rURL and not 'Other://' in rURL:
 		link = rURL
-		link = link.replace(';','')
 		xbmc.log(link)
 		Pre_link_rapidvideo(link)				
-	elif 'estream.nu' in rURL:
+	elif 'estream.nu' in rURL and not 'Other://' in rURL:
 		link = rURL
-		link = link.replace(';','')
 		xbmc.log(link)
 		Pre_link_estream(link)					
-	elif 'animesonlineq.net' in rURL:
+	elif 'animesonlineq.net' in rURL and not 'Other://' in rURL:
 		link = rURL
-		link = link.replace(';','')
 		xbmc.log(link)
 		Pre_link_animesonlineq(link)			
+	elif 'Other://' in rURL:
+		link = rURL
+		link = link.replace('Other://','')
+		Other(link)			
 
 def get_params():
         param=[]
