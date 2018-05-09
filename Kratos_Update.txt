@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 import urllib
 import urllib2
@@ -236,20 +235,20 @@ def Pre_link_seuseriado(url):
 		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 	else:
 		sys.exit()	
-		
-def Resolvers(url,name,iconimage):
-	versao='1.0'
+def Check_update():
+	versao='2.0'
 	Source_Update = os.path.join(profile, 'Player_Kratos.py')
-	base_update = abrir_url()
+	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
-	if versao==check:
+	if check==versao:
 		pass
 	else:
-        #f = open(Source_Update, 'w')
-       # f.write(base_update)
-       # f.close()
-		dialog.ok('-=Kratos Kodi Br =-','Sua versão do player:'+versao+',disponível:'+check+'','Atualizando o player do add-on feche e abra novamente.','')
-		sys.exit(0)     	
+        f = open(Source_Update, 'w')
+        f.write(base_update)
+        f.close()
+		dialog.ok('-=Kratos Kodi Br =-','Versão do player:'+versao,'Versão do player disponível:'+check,'Atualizando o player do add-on feche e abra novamente.')
+		sys.exit(0)     			
+def Resolvers(url,name,iconimage):   	
 	rURL = url
 	if 'pipocao.com' in rURL:
 		link = rURL
