@@ -77,19 +77,19 @@ def Pre_link_rapidvideo(url):
 		liz.setPath(urls)
 		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 		
-		
+
 def Pre_link_estream(url):		
 	link = abrir_url(url)
-	r ='source src="(.+?)" type='
+	r ='''<source src="(.+?)" type='application.+?' />'''
 	match = re.compile(r).findall(link)
 	for urls in match:
 		liz = xbmcgui.ListItem(name, iconImage=iconimage)
-		liz.setPath(urls)
+		liz.setPath(urls+'|Referer=https://estream.nu/')
 		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 				
 def Pre_link_animesonlineq(url):		
 	link = abrir_url(url)
-	r ='<link itemprop="embedURL" href="(.*)">'
+	r ='<link itemprop="embedURL" href="(.*?)">'
 	match = re.compile(r).findall(link)
 	for urls in match:
 		liz = xbmcgui.ListItem(name, iconImage=iconimage)
@@ -237,10 +237,10 @@ def Pre_link_seuseriado(url):
 		sys.exit()	
 def Check_update():
 	versao='2.0'
-	Source_Update = os.path.join(home, 'Player_Kratos.py')
+	Source_Update = os.path.join(profile, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
-	if versao==check:
+	if check==versao:
 		pass
 	else:
 		f = open(Source_Update, 'w')
