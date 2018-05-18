@@ -69,16 +69,16 @@ def abrir_url(url):
 ###
 #RESOLVERS DIA 18/05/2018
 ###
+
 	
 def RedeCanais_Tv(url):
-	link = getUrl(url)
-	xbmc.log(link)
+	basi = url.replace("https","http")
+	link = abrir_url(basi)
 	urls = []
 	names = []
-	a ='<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>'
-	b = re.compile(a).findall(link)[0]
-	c = getUrl(b)
-	soup =  BeautifulSoup(getUrl(c),convertEntities=BeautifulSoup.HTML_ENTITIES)
+	player = re.compile('<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>').findall(link)[0]
+	a = abrir_url(player)
+	soup =  BeautifulSoup(a,convertEntities=BeautifulSoup.HTML_ENTITIES)
 	matchs = soup.find('div',{'class':"player"}).findAll('div')
 	for d in matchs:
 		urls.append(d.form['action'])
@@ -89,21 +89,20 @@ def RedeCanais_Tv(url):
 		if 'vib.php?canal' in e:
 			f = abrir_url(e)
 			res = re.compile("""height=100%"\s*width="100%"\s*src="(http:?[^'"\<>\[\]]+)""").findall(f)[0]
-			reproduzir = res+'|Referer='+b
+			reproduzir = res+'|Referer='+player
 			liz = xbmcgui.ListItem(name, iconImage=iconimage)
 			liz.setPath(reproduzir)
 			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 		elif 'jw.php?canal' in e:
 			f = abrir_url(e)
 			res = re.compile('file.*?"(.*?)",').findall(f)[0]
-			reproduzir = res+'|Referer='+b
+			reproduzir = res+'|Referer='+player
 			liz = xbmcgui.ListItem(name, iconImage=iconimage)
 			liz.setPath(reproduzir)
 			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 		
 	else:
-		sys.exit()		
-		
+		sys.exit()	
 ###
 #RESOLVERS DIA 10/05/2018
 ###
@@ -284,7 +283,7 @@ def Pre_link_seuseriado(url):
 	else:
 		sys.exit()	
 def Check_update():
-	versao='5.0'
+	versao='6.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
