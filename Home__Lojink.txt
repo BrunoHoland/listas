@@ -129,6 +129,16 @@
 
 
 <addon>
+<title>Kratos Kodi Br</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Repo/plugin.video.kractosbr.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Repo/icon.png</image>
+<description>ASSISTA O MELHOR DE FILMES,SÉRIES e Tv.</description>
+<type>Add-ons de Filmes e Séries</type>
+</addon>
+
+
+
+<addon>
 <title>Play Torrents Update(18.05.2018)</title>
 <url>https://github.com/brunolojino/repo_kodi/blob/master/playtorrents/plugin.video.playtorrents-3.0.zip?raw=true</url>
 <image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/playtorrents/icon.png</image>
@@ -189,6 +199,16 @@
 <description>Consulta, armazena e retorna metadados para programas de TV, filmes e videoclipes. [CR] Fontes: [CR] www.thetvdb.com [CR] www.themoviedb.org [CR] www.imdb.com [CR] www.omdbapi.com.br [CR] Este produto usa a API do TMDb, mas não é endossado ou certificada pelo TMDb.</description>
 <type>Dependências</type>
 </addon>
+
+
+<addon>
+<title>gdrive</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/Repo/plugin.video.gdrive.zip?raw=true</url>
+<image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/Repo/icona.png</image>
+<description>Reproduz músicas e vídeos da sua conta do Google Drive. Não é afiliado ao Google.</description>
+<type>Dependências</type>
+</addon>
+
 
 
 <addon>
