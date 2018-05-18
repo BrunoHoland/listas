@@ -95,7 +95,7 @@ def RedeCanais_Tv(url):
 			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 		elif 'jw.php?canal' in e:
 			f = abrir_url(e)
-			res = re.compile("""file.*"(http:?[^'"\<>\[\]]+)""").findall(f)[0]
+			res = re.compile('file.*?"(.*?)",').findall(f)[0]
 			reproduzir = res+'|Referer='+b
 			liz = xbmcgui.ListItem(name, iconImage=iconimage)
 			liz.setPath(reproduzir)
@@ -228,7 +228,6 @@ def Pre_link_mmfilmes(url):
 	base_mmf = 'http://player.mmfilmes.tv'
 	b = re.compile("addiframe.*?'(.*?)'").findall(a)[0]
 	c = getUrl(base_mmf+b, headers=referer)
-	xbmc.log(c)
 	items_url = []
 	items_name = []
 	match = re.compile("{'file':'(.*?)'.*?'label").findall(c)
@@ -285,7 +284,7 @@ def Pre_link_seuseriado(url):
 	else:
 		sys.exit()	
 def Check_update():
-	versao='4.0'
+	versao='5.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -305,6 +304,7 @@ def Other(url):
 
 Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv']	
 def Resolvers(url,name,iconimage):   	
+	Check_update()
 	rURL = url.replace(';','')
 	if 'pipocao.com' in rURL and not 'Other://' in rURL:
 		link = rURL
