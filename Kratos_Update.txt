@@ -63,9 +63,47 @@ def abrir_url(url):
 		link=response.read()
 		response.close()
 		return link
-	except IOError:#     except urllib2.HTTPError, e:
+	except IOError as e:#     except urllib2.HTTPError, e:
 		dialog.notification('','Não foi possivel acessar o servidor.',icon)
 		sys.exit(0)
+###
+#RESOLVERS DIA 18/05/2018
+###
+	
+def RedeCanais_Tv(url):
+	link = getUrl(url)
+	xbmc.log(link)
+	urls = []
+	names = []
+	a ='<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>'
+	b = re.compile(a).findall(link)[0]
+	c = getUrl(b)
+	soup =  BeautifulSoup(getUrl(c),convertEntities=BeautifulSoup.HTML_ENTITIES)
+	matchs = soup.find('div',{'class':"player"}).findAll('div')
+	for d in matchs:
+		urls.append(d.form['action'])
+		names.append(d.a.text)
+	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', names)
+	if opcao>= 0:
+		e = urls[opcao]
+		if 'vib.php?canal' in e:
+			f = abrir_url(e)
+			res = re.compile("""height=100%"\s*width="100%"\s*src="(http:?[^'"\<>\[\]]+)""").findall(f)[0]
+			reproduzir = res+'|Referer='+b
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(reproduzir)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+		elif 'jw.php?canal' in e:
+			f = abrir_url(e)
+			res = re.compile("""file.*"(http:?[^'"\<>\[\]]+)""").findall(f)[0]
+			reproduzir = res+'|Referer='+b
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(reproduzir)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+		
+	else:
+		sys.exit()		
+		
 ###
 #RESOLVERS DIA 10/05/2018
 ###
@@ -184,11 +222,13 @@ def Pre_link_netcine(url):
 
 		
 def Pre_link_mmfilmes(url):
-	referer = [('Referer','http://www.mmfilmes.tv/')]#getUrl(page_value,headers=referer)
+	ref = url
+	referer = [('Referer',url)]#getUrl(page_value,headers=referer)
 	a =  getUrl(url, headers=referer)
-	xbmc.log(a)
+	base_mmf = 'http://player.mmfilmes.tv'
 	b = re.compile("addiframe.*?'(.*?)'").findall(a)[0]
-	c = getUrl(b, headers=referer)
+	c = getUrl(base_mmf+b, headers=referer)
+	xbmc.log(c)
 	items_url = []
 	items_name = []
 	match = re.compile("{'file':'(.*?)'.*?'label").findall(c)
@@ -200,15 +240,20 @@ def Pre_link_mmfilmes(url):
 		elif '480p' in url:
 			items_names = '480p'
 			items_name.append(items_names)		
-			items_url.append(url)		
+			items_url.append(url)	
 		elif '720p' in url:
 			items_names = '720p'
 			items_name.append(items_names)		
 			items_url.append(url)		
+		elif '1080p' in url:
+			items_names = '1080p'
+			items_name.append(items_names)		
+			items_url.append(url)		
+			
 	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', items_name)
 	if opcao>= 0:
 		linkss = items_url[opcao] 
-		linkss+='|Referer=http://www.mmfilmes.tv/'
+		linkss+='|Referer='+ref
 		liz = xbmcgui.ListItem(name, iconImage=iconimage)
 	#	liz.setInfo(type='Video', infoLabels={'Title':name})
 	#	liz.setProperty("IsPlayable","true")
@@ -240,7 +285,7 @@ def Pre_link_seuseriado(url):
 	else:
 		sys.exit()	
 def Check_update():
-	versao='3.0'
+	versao='4.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -257,13 +302,14 @@ def Other(url):
 	liz = xbmcgui.ListItem(name, iconImage=iconimage)
 	liz.setPath(url2)
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
-Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://']	
+
+Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv']	
 def Resolvers(url,name,iconimage):   	
 	rURL = url.replace(';','')
 	if 'pipocao.com' in rURL and not 'Other://' in rURL:
 		link = rURL
 		Pre_link_pipocao(link)		
-	elif 'redecanais' in rURL and not 'Other://' in rURL:
+	elif 'redecanais' in rURL and not 'Other://' in rURL and not 'www.redecanais.tv' in rURL:
 		link = rURL
 		Pre_link_rede_canais(link)
 	elif 'netcine.us' in rURL and not 'Other://' in rURL:
@@ -285,7 +331,12 @@ def Resolvers(url,name,iconimage):
 	elif 'animesonlineq.net' in rURL and not 'Other://' in rURL:
 		link = rURL
 		xbmc.log(link)
-		Pre_link_animesonlineq(link)			
+		Pre_link_animesonlineq(link)	
+	elif 'www.redecanais.tv' in rURL and not 'Other://' in rURL:
+		link = rURL
+		link = link.replace('www.redecanais.tv','www.redecanais.link')
+		RedeCanais_Tv(link)					
+		
 	elif 'Other://' in rURL:
 		link = rURL
 		link = link.replace('Other://','')
