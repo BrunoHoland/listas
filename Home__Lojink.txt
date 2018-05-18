@@ -195,7 +195,7 @@
 <title>Pulsar</title>
 <url>https://github.com/steeve/plugin.video.pulsar/releases/download/v0.6.1/plugin.video.pulsar-0.6.1.zip</url>
 <image>https://raw.githubusercontent.com/steeve/plugin.video.pulsar/master/icon.png</image>
-<description>TORRENT</description>
+<description>Pulsar: Universal streaming</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -204,7 +204,7 @@
 <title>Quasar Universal</title>
 <url>https://github.com/scakemyer/plugin.video.quasar/releases/download/v0.9.78/plugin.video.quasar-0.9.78.zip</url>
 <image>https://raw.githubusercontent.com/scakemyer/plugin.video.quasar/master/icon.png</image>
-<description>TORRENT</description>
+<description>O Quasar é um mecanismo de busca e transmissão de torrents. Ele não entra em sites de torrent por razões legais. No entanto, ele chama add-ons especialmente criados (chamados de provedores) que são instalados separadamente. [CR] Este projeto é uma bifurcação do bem conhecido, mas não mais mantido projeto Pulsar da steeve.</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -213,7 +213,8 @@
 <title>Yatp(Yet Another Torrent Player)</title>
 <url>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/plugin.video.yatp/plugin.video.yatp-3.1.13.zip</url>
 <image>https://raw.githubusercontent.com/romanvm/kodi.yatp/master/plugin.video.yatp/icon.png</image>
-<description>TORRENT</description>
+<description>Um cliente de torrent que permite reproduzir torrents de vídeo enquanto os descarrega em segundo plano.[CR][CR]O Add-on requer os seguintes as seguintes dependências:
+[CR]LibTorrent[CR]requests[CR]simpleplugin[CR]</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -222,7 +223,8 @@
 <title>Torrenter</title>
 <url>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/plugin.video.torrenter/plugin.video.torrenter-2.6.1.zip</url>
 <image>https://raw.githubusercontent.com/DiMartinoXBMC/plugin.video.torrenter/master/icon.png</image>
-<description>TORRENT</description>
+<description>Ele também gerencia torrents e nos permite escolher entre seu próprio cliente interno e outros clientes externos (µTorrent, Transmission, Diluge, Vuze, q Bittorrent), o cliente BitTorrent com o qual fazer o download.[CR][CR]O Add-on requer os seguintes as seguintes dependências:
+[CR]LibTorrent[CR]AceStream Client[CR]requests[CR]torrent2http[CR]pyrrent2http[CR]chardet[CR]pyxbmct</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -231,7 +233,7 @@
 <title>Xbmctorrent</title>
 <url>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/plugin.video.xbmctorrent/plugin.video.xbmctorrent-0.6.9.ru.zip</url>
 <image>https://raw.githubusercontent.com/steeve/xbmctorrent/master/icon.png</image>
-<description>TORRENT</description>
+<description>XBMCtorrent: Torrent streaming for Xbmc,Kodi e etc.</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -240,7 +242,7 @@
 <title>Torrentin</title>
 <url>https://github.com/surebic/plugin.video.torrentin/blob/master/archives/plugin.video.torrentin-0.6.2.zip?raw=true</url>
 <image>https://raw.githubusercontent.com/surebic/plugin.video.torrentin/master/icon.png</image>
-<description>TORRENT</description>
+<description>Este complemento executa aplicativos externos do Android para reproduzir vídeos por torrent ou magnet, também incorpora cliente para o mecanismo Acestream (Android / Windows / Linux) e pode vincular a outros plugins.</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -248,7 +250,7 @@
 <addon>
 <title>############################</title>
 <url>https://github.com/#####</url>
-<image>https://#######################</image>
+<image>https://raw.githubusercontent.com/brunolojino/listas/master/kodi-logo.png</image>
 <description>TORRENT</description>
 <type>Dependências_Torrents</type>
 </addon>
@@ -258,7 +260,7 @@
 <title>LibTorrent</title>
 <url>https://github.com/XvBMC/repository.xvbmc/blob/master/Dependencies/zips/script.module.libtorrent/script.module.libtorrent-1.1.0e.zip?raw=true</url>
 <image>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/script.module.libtorrent/icon.png</image>
-<description>TORRENT</description>
+<description>O script.module.libtorrent é um módulo Kodi que facilita a importação da biblioteca python-libtorrent.</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -267,7 +269,7 @@
 <title>AceStream Client</title>
 <url>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/script.module.torrent.ts/script.module.torrent.ts-0.6.0.28a.zip</url>
 <image>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/script.module.torrent.ts/icon.png</image>
-<description>TORRENT</description>
+<description>Suporte para AceStream Engine</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -276,7 +278,7 @@
 <title>requests</title>
 <url>https://github.com/XvBMC/repository.xvbmc/blob/master/Dependencies/zips/script.module.requests/script.module.requests-2.18.4.zip?raw=true</url>
 <image>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/script.module.requests/icon.png</image>
-<description>TORRENT</description>
+<description>Python HTTP for Humans</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -285,7 +287,7 @@
 <title>torrent2http</title>
 <url>https://github.com/XvBMC/repository.xvbmc/blob/master/Dependencies/zips/script.module.torrent2http/script.module.torrent2http-0.2.7.zip?raw=true</url>
 <image>https://raw.githubusercontent.com/kodil/kodil/master/repo/script.module.chardet/icon.png</image>
-<description>TORRENT</description>
+<description>Fornece download de torrent sequencial para streaming de vídeo on-line e outras mídias via HTTP.</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -295,7 +297,7 @@
 <title>pyrrent2http</title>
 <url>https://ftp.acc.umu.se/mirror/addons.superrepo.org/v7/addons/script.module.pyrrent2http/script.module.pyrrent2http-0.9.7.zip</url>
 <image>https://raw.githubusercontent.com/kodil/kodil/master/repo/script.module.chardet/icon.png</image>
-<description>TORRENT</description>
+<description>Fornece download de torrent sequencial para streaming de vídeo on-line e outras mídias via HTTP.</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -305,7 +307,7 @@
 <title>chardet</title>
 <url>https://github.com/kodil/kodil/blob/master/repo/script.module.chardet/script.module.chardet-3.0.4.zip</url>
 <image>https://raw.githubusercontent.com/kodil/kodil/master/repo/script.module.chardet/icon.png</image>
-<description>TORRENT</description>
+<description>Detector de codificação universal</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -315,7 +317,7 @@
 <title>pyxbmct</title>
 <url>https://github.com/romanvm/script.module.pyxbmct/releases/download/v.1.3.0a/script.module.pyxbmct-1.3.0.zip</url>
 <image>https://raw.githubusercontent.com/romanvm/script.module.pyxbmct/master/script.module.pyxbmct/icon.png</image>
-<description>TORRENT</description>
+<description>O PyXBMCt é um mini-framework para buliding de UI addon XBMC simples. É semelhante ao PyQt e fornece janelas pai, vários controles de interface do usuário (widgets) e um gerenciador de layout de grade para colocar os controles.</description>
 <type>Dependências_Torrents</type>
 </addon>
 
@@ -325,6 +327,7 @@
 <title>simpleplugin</title>
 <url>https://github.com/romanvm/script.module.simpleplugin/releases/download/v2.3.3/script.module.simpleplugin-2.3.3.zip</url>
 <image>https://raw.githubusercontent.com/kodil/kodil/master/repo/script.module.chardet/icon.png</image>
-<description>TORRENT</description>
+<description>Micro-estrutura SimplePlugin que simplifica a programação de plugins de conteúdo Kodi.</description>
 <type>Dependências_Torrents</type>
 </addon>
+
