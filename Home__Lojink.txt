@@ -139,8 +139,8 @@
 
 
 <addon>
-<title>Play Torrents Update(18.05.2018)</title>
-<url>https://github.com/brunolojino/repo_kodi/blob/master/playtorrents/plugin.video.playtorrents-3.0.zip?raw=true</url>
+<title>Play Torrents Update(19.05.2018)</title>
+<url>https://github.com/brunolojino/repo_kodi/blob/master/playtorrents/plugin.video.playtorrents-4.0.zip?raw=true</url>
 <image>https://raw.githubusercontent.com/brunolojino/repo_kodi/master/playtorrents/icon.png</image>
 <description>ASSISTA FILMES E SÉRIES EM TORRENTS DIRETO NO KODI.</description>
 <type>Add-ons Torrents</type>
