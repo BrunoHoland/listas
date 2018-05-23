@@ -107,14 +107,22 @@ def RedeCanais_Tv(url):
 #RESOLVERS DIA 10/05/2018
 ###
 def Pre_link_estream(url):		
-	link = abrir_url(url)
-	r ='''<source src="(.+?)" type='application.+?' />'''
-	match = re.compile(r).findall(link)
-	for urls in match:
-		liz = xbmcgui.ListItem(name, iconImage=iconimage)
-		liz.setPath(urls)
-		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
-				
+	try:
+		a = abrir_url(url)
+		urls = []
+		names = []
+		soup =  BeautifulSoup(a,convertEntities=BeautifulSoup.HTML_ENTITIES)	
+		soups = soup.findAll('source')
+		for d in soups:
+			urls.append(d['src'])
+			names.append('Resolução Desconhecida' if d.get('label')==None else d.get('label').split('x')[1])
+		opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', names)
+		if opcao>= 0:	
+			e = urls[opcao]
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(e)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+	except: pass			
 def Pre_link_animesonlineq(url):		
 	link = abrir_url(url)
 	r ='<link itemprop="embedURL" href="(.*?)">'
@@ -127,9 +135,10 @@ def Pre_link_animesonlineq(url):
 		
 ###
 #RESOLVERS DIA 10/05/2018
-###	
+###		
 def Pre_link_rede_canais(url):		
-	link = abrir_url(url)
+	uri = url.replace("https","http")
+	link = abrir_url(uri)
 	r ='<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>'
 	match = re.compile(r).findall(link)
 	for urls in match:
@@ -261,7 +270,7 @@ def Pre_link_mmfilmes(url):
 		sys.exit()
 
 def Pre_link_seuseriado(url):
-	url = url.replace('#038;','')
+	url = url.replace('#038;','').replace("https","http")
 	referer = [('Referer','https://seuseriado.com/')]#'https://seuseriado.com/')]#getUrl(page_value,headers=referer)
 	link =		''
 	items_url = []
@@ -283,7 +292,7 @@ def Pre_link_seuseriado(url):
 	else:
 		sys.exit()	
 def Check_update():
-	versao='6.0'
+	versao='7.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
