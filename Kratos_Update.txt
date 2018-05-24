@@ -69,7 +69,24 @@ def abrir_url(url):
 ###
 #RESOLVERS DIA 18/05/2018
 ###
-
+def Lojink_resolver_ok_ru(url):
+	html = abrir_url_ok_ru(url)
+	h = ''.join(html.replace('\\','').replace('u0026','&').replace('&quot;',''))
+	urls = []
+	names = []
+	qual_map = {'ultra': '2160', 'quad': '1440', 'full': '1080', 'hd': '720', 'sd': '480', 'low': '360', 'lowest': '240', 'mobile': '144'}
+	match = re.compile('name:(.+?),url:(.+?),').findall(h)
+	match.reverse()
+	for name,url in match:
+		url = url.replace('srcAg=UNKNOWN','srcAg=GECKO').replace('%3B',';').replace('ct=0','ct=4')
+		names.append(qual_map.get(name))
+		urls.append(url)	
+	opcao = xbmcgui.Dialog().select('Lojink_resolver_ok_ru', names)
+	if opcao>= 0:
+		url = urls[opcao]
+		return url
+	if opcao:
+		sys.exit(0)
 	
 def RedeCanais_Tv(url):
 	basi = url.replace("https","http")
@@ -291,8 +308,9 @@ def Pre_link_seuseriado(url):
 		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 	else:
 		sys.exit()	
+		
 def Check_update():
-	versao='7.0'
+	versao='8.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -304,13 +322,37 @@ def Check_update():
 		f.close()
 		dialog.ok('-=Kratos Kodi Br =-','Versão do player: '+versao,'Versão do player disponível: '+check,'Atualizando o player do add-on feche e abra novamente.')
 		sys.exit(0) 
+		
+def kratos_resolver_ok_ru(url):
+	html = getUrl(url)
+	h = ''.join(html.replace('\\','').replace('u0026','&').replace('&quot;',''))
+	urls = []
+	names = []
+	qual_map = {'ultra': '2160', 'quad': '1440', 'full': '1080', 'hd': '720', 'sd': '480', 'low': '360', 'lowest': '240', 'mobile': '144'}
+	match = re.compile('name:(.+?),url:(.+?),').findall(h)
+	match.reverse()
+	for named,url in match:
+		url = url.replace('srcAg=UNKNOWN','srcAg=GECKO').replace('%3B',';').replace('ct=0','ct=4')
+		names.append(qual_map.get(named))
+		urls.append(url)	
+	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', names)
+	if opcao>= 0:
+		repro = urls[opcao]
+		liz = xbmcgui.ListItem(name, iconImage=iconimage)
+	#	liz.setInfo(type='Video', infoLabels={'Title':name})
+	#	liz.setProperty("IsPlayable","true")
+		liz.setPath(repro)
+		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+	else:
+		sys.exit(0)
+	
 def Other(url):
 	url2 = url
 	liz = xbmcgui.ListItem(name, iconImage=iconimage)
 	liz.setPath(url2)
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 
-Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv']	
+Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru']	
 def Resolvers(url,name,iconimage):   	
 	Check_update()
 	rURL = url.replace(';','')
@@ -340,10 +382,15 @@ def Resolvers(url,name,iconimage):
 		link = rURL
 		xbmc.log(link)
 		Pre_link_animesonlineq(link)	
+		
 	elif 'www.redecanais.tv' in rURL and not 'Other://' in rURL:
 		link = rURL
 		link = link.replace('www.redecanais.tv','www.redecanais.link')
 		RedeCanais_Tv(link)					
+				
+	elif 'ok_ru' in rURL and not 'Other://' in rURL:
+		link = rURL.replace('ok_ru','ok.ru')
+		kratos_resolver_ok_ru(link)					
 		
 	elif 'Other://' in rURL:
 		link = rURL
