@@ -14,12 +14,19 @@ import cookielib
 import sys
 import xbmc
 from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
+
 try:
     import json
 except:
     import simplejson as json
+	
+try:
+    import jsunpack
+except:
+    pass
+	
+	
 import SimpleDownloader as downloader
-import jsunpack
 addon = xbmcaddon.Addon(id='plugin.video.kractosbr')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
@@ -69,24 +76,7 @@ def abrir_url(url):
 ###
 #RESOLVERS DIA 18/05/2018
 ###
-def Lojink_resolver_ok_ru(url):
-	html = abrir_url_ok_ru(url)
-	h = ''.join(html.replace('\\','').replace('u0026','&').replace('&quot;',''))
-	urls = []
-	names = []
-	qual_map = {'ultra': '2160', 'quad': '1440', 'full': '1080', 'hd': '720', 'sd': '480', 'low': '360', 'lowest': '240', 'mobile': '144'}
-	match = re.compile('name:(.+?),url:(.+?),').findall(h)
-	match.reverse()
-	for name,url in match:
-		url = url.replace('srcAg=UNKNOWN','srcAg=GECKO').replace('%3B',';').replace('ct=0','ct=4')
-		names.append(qual_map.get(name))
-		urls.append(url)	
-	opcao = xbmcgui.Dialog().select('Lojink_resolver_ok_ru', names)
-	if opcao>= 0:
-		url = urls[opcao]
-		return url
-	if opcao:
-		sys.exit(0)
+
 	
 def RedeCanais_Tv(url):
 	basi = url.replace("https","http")
@@ -288,7 +278,7 @@ def Pre_link_mmfilmes(url):
 
 def Pre_link_seuseriado(url):
 	url = url.replace('#038;','').replace("https","http")
-	referer = [('Referer','https://seuseriado.com/')]#'https://seuseriado.com/')]#getUrl(page_value,headers=referer)
+	referer = [('Referer','http://seuseriado.com/')]#'https://seuseriado.com/')]#getUrl(page_value,headers=referer)
 	link =		''
 	items_url = []
 	items_name = []
@@ -310,7 +300,7 @@ def Pre_link_seuseriado(url):
 		sys.exit()	
 		
 def Check_update():
-	versao='8.0'
+	versao='9.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -322,29 +312,42 @@ def Check_update():
 		f.close()
 		dialog.ok('-=Kratos Kodi Br =-','Versão do player: '+versao,'Versão do player disponível: '+check,'Atualizando o player do add-on feche e abra novamente.')
 		sys.exit(0) 
-		
+
+def post_page_free(url, data, headers):
+    req = urllib2.Request(url, data, headers)
+    page = urllib2.urlopen(req).read()
+    return page
+	
+    		
 def kratos_resolver_ok_ru(url):
-	html = getUrl(url)
-	h = ''.join(html.replace('\\','').replace('u0026','&').replace('&quot;',''))
+	OPERA_USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 OPR/34.0.2036.50'
+	qual_map = {'ultra': '2160', 'quad': '1440', 'full': '1080', 'hd': '720', 'sd': '480', 'low': '360', 'lowest': '240', 'mobile': '144'}
+	ur = "http://www.ok.ru/dk"
+	ra = re.compile('(?://|\.)(ok\.ru|odnoklassniki\.ru)/(?:videoembed|video)/(\d+)').findall(url)
+	media_id  = ra[0][1]
+	header = {"User-Agent": OPERA_USER_AGENT}
 	urls = []
 	names = []
-	qual_map = {'ultra': '2160', 'quad': '1440', 'full': '1080', 'hd': '720', 'sd': '480', 'low': '360', 'lowest': '240', 'mobile': '144'}
-	match = re.compile('name:(.+?),url:(.+?),').findall(h)
-	match.reverse()
-	for named,url in match:
-		url = url.replace('srcAg=UNKNOWN','srcAg=GECKO').replace('%3B',';').replace('ct=0','ct=4')
-		names.append(qual_map.get(named))
-		urls.append(url)	
+	data = {'cmd': 'videoPlayerMetadata', 'mid': media_id}
+	data = urllib.urlencode(data)
+	html = post_page_free(ur, data, headers=header)
+	json_data = json.loads(html)
+	jsons = json_data['videos']
+	jsons.reverse()
+	for a in jsons:
+		names.append(qual_map.get(a.get('name')))
+		urls.append(a.get('url'))	
 	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', names)
 	if opcao>= 0:
 		repro = urls[opcao]
+		repros = repro+'|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 OPR/34.0.2036.50'
 		liz = xbmcgui.ListItem(name, iconImage=iconimage)
 	#	liz.setInfo(type='Video', infoLabels={'Title':name})
 	#	liz.setProperty("IsPlayable","true")
-		liz.setPath(repro)
+		liz.setPath(repros)
 		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 	else:
-		sys.exit(0)
+		sys.exit(0)    
 	
 def Other(url):
 	url2 = url
