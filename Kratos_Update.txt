@@ -74,9 +74,28 @@ def abrir_url(url):
 		dialog.notification('','Não foi possivel acessar o servidor.',icon)
 		sys.exit(0)
 ###
+#RESOLVERS DIA 30/05/2018
+###
+def kratos_resolver_vk_com(url):
+	link = getUrl(url)
+	names = []
+	urls = []
+	match = re.compile('"url(\d+)":"(.+?)"').findall(link)
+	for namea,url in match:
+		names.append(namea)
+		urls.append(url)	
+	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', names)
+	if opcao>= 0:
+		repro = urls[opcao].replace('\/','/')		
+		liz = xbmcgui.ListItem(name, iconImage=iconimage)
+		liz.setPath(repro)
+		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)					
+	else:
+		sys.exit()
+		
+###
 #RESOLVERS DIA 18/05/2018
 ###
-
 	
 def RedeCanais_Tv(url):
 	basi = url.replace("https","http")
@@ -300,7 +319,7 @@ def Pre_link_seuseriado(url):
 		sys.exit()	
 		
 def Check_update():
-	versao='9.0'
+	versao='10.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -355,7 +374,7 @@ def Other(url):
 	liz.setPath(url2)
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 
-Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru']	
+Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru','vk_com']	
 def Resolvers(url,name,iconimage):   	
 	Check_update()
 	rURL = url.replace(';','')
@@ -394,6 +413,10 @@ def Resolvers(url,name,iconimage):
 	elif 'ok_ru' in rURL and not 'Other://' in rURL:
 		link = rURL.replace('ok_ru','ok.ru')
 		kratos_resolver_ok_ru(link)					
+						
+	elif 'vk_com' in rURL and not 'Other://' in rURL:
+		link = rURL.replace('vk_com','vk.com')
+		kratos_resolver_vk_com(link)					
 		
 	elif 'Other://' in rURL:
 		link = rURL
