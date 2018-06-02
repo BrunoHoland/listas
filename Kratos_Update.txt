@@ -98,7 +98,7 @@ def kratos_resolver_vk_com(url):
 ###
 	
 def RedeCanais_Tv(url):
-	basi = url.replace("https","http")
+	basi = getFinalUrl(url.replace("https","http"))
 	link = abrir_url(basi)
 	urls = []
 	names = []
@@ -162,8 +162,31 @@ def Pre_link_animesonlineq(url):
 ###
 #RESOLVERS DIA 10/05/2018
 ###		
+
+class SmartRedirectHandler(urllib2.HTTPRedirectHandler):
+	def http_error_301(self, req, fp, code, msg, headers):
+		result = urllib2.HTTPRedirectHandler.http_error_301(self, req, fp, code, msg, headers)
+		return result
+
+	def http_error_302(self, req, fp, code, msg, headers):
+		result = urllib2.HTTPRedirectHandler.http_error_302(self, req, fp, code, msg, headers)
+		return result
+UA = 'Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0'
+def getFinalUrl(url):
+	link = url
+	try:
+		req = urllib2.Request(url)
+		req.add_header('User-Agent', UA)
+		opener = urllib2.build_opener(SmartRedirectHandler())
+		f = opener.open(req)
+		link = f.url
+		if link is None or link == '':
+			link = url
+	except Exception as ex:
+		print(str(ex), 3)
+	return link
 def Pre_link_rede_canais(url):		
-	uri = url.replace("https","http")
+	uri = getFinalUrl(url.replace("https","http"))
 	link = abrir_url(uri)
 	r ='<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>'
 	match = re.compile(r).findall(link)
@@ -319,7 +342,7 @@ def Pre_link_seuseriado(url):
 		sys.exit()	
 		
 def Check_update():
-	versao='10.0'
+	versao='11.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
