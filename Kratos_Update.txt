@@ -76,6 +76,60 @@ def abrir_url(url):
 ###
 #RESOLVERS DIA 30/05/2018
 ###
+plugin = addon.getSetting('plugin')
+def Magent_Torrent(url):
+	link = abrir_url(url)#.replace('\n','').replace('\r','')		
+	bsObj = BeautifulSoup(link)
+	names = []
+	urls = []
+	match = bsObj.find('div',{'id':'categoria','class':'box_item center-widget'})
+	matchs = match.findAll('div')
+	for a in matchs:#('a'):
+		Nome = a.text.encode('utf-8')
+		try:
+			url = a.a['href'].encode('utf-8')
+		except:
+			url= 'True'
+		if Nome=='':
+			xbmc.log('%s' % a)
+			nomi = url.split('&dn=')[-1].split('&tr=')[0]
+			Nome = urllib.unquote_plus(urllib.unquote_plus(nomi.split('[')[-0]))
+		names.append(Nome)
+		urls.append(url)	
+	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', names)
+	if opcao>= 0:
+		repro = urls[opcao]
+		rURL = repro
+		if 'Quasar' in plugin:
+			url2 = 'plugin://plugin.video.quasar/play?uri=' + rURL
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(url2)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+		if 'YATP' in plugin:
+			url2 = 'plugin://plugin.video.yatp/?action=play&torrent=' + rURL
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(url2)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+		if 'KmediaTorrent' in plugin:
+			url2 = 'plugin://plugin.video.kmediatorrent/play/' + rURL
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(url2)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+		if 'Pulsar' in plugin:
+			url2 = 'plugin://plugin.video.pulsar/play?uri=' + rURL
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(url2)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+		if 'Torrenter' in plugin:
+			url2 = 'plugin://plugin.video.torrenter/?action=playTorrent&url=' + rURL
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(url2)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
+		if 'XBMCtorrent' in plugin:
+			url2 = 'plugin://plugin.video.xbmctorrent/play/' + rURL
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(url2)
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 def kratos_resolver_vk_com(url):
 	link = getUrl(url)
 	names = []
@@ -163,14 +217,14 @@ def Pre_link_animesonlineq(url):
 #RESOLVERS DIA 10/05/2018
 ###		
 def Pre_link_rede_canais(url):
-        
-	uri = url.replace("https","http")
-	uri = url.replace("https","http").replace("http://www.redecanais.com","http://www.redecanais.link").replace("http://www.redecanais.info","http://www.redecanais.link").replace("http://www.redecanais.net","http://www.redecanais.link")
-	link = abrir_url(uri)
+	uri = url.replace("https","http").replace(url.split('.')[2].split('/')[0],'cc')
+	type = [('Referer',url)]
+	link = getUrl(uri,headers=type)
 	r ='<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>'
 	match = re.compile(r).findall(link)
 	for urls in match:
-		links = abrir_url(urls)
+		links = getUrl(urls.replace(urls.split('.')[1].split('/')[0],'com'))#,headers=[('Referer','http://www.redecanais.cc/')])
+		xbmc.log(links)
 		matchs = re.compile('file: "(.*?)",').findall(links)[0]
 		liz = xbmcgui.ListItem(name, iconImage=iconimage)
 	#	liz.setInfo(type='Video', infoLabels={'Title':name})
@@ -362,7 +416,7 @@ def Other(url):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 		
 def Check_update():
-	versao='12.0'
+	versao='13.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -375,7 +429,7 @@ def Check_update():
 		dialog.ok('-=Kratos Kodi Br =-','Versão do player: '+versao,'Versão do player disponível: '+check,'Atualizando o player do add-on feche e abra novamente.')
 		sys.exit(0) 
 
-Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru','vk_com']	
+Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru','vk_com','megatorrentshd.com']	
 def Resolvers(url,name,iconimage):   	
 	Check_update()
 	rURL = url.replace(';','')
@@ -418,6 +472,10 @@ def Resolvers(url,name,iconimage):
 	elif 'vk_com' in rURL and not 'Other://' in rURL:
 		link = rURL.replace('vk_com','vk.com')
 		kratos_resolver_vk_com(link)					
+								
+	elif 'megatorrentshd.com' in rURL and not 'Other://' in rURL:
+		link = rURL.replace('vk_com','vk.com')
+		Magent_Torrent(link)					
 		
 	elif 'Other://' in rURL:
 		link = rURL
