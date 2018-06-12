@@ -217,7 +217,7 @@ def Pre_link_animesonlineq(url):
 #RESOLVERS DIA 10/05/2018
 ###		
 def Pre_link_rede_canais(url):
-	uri = url.replace("https","http").replace(url.split('.')[2].split('/')[0],'ch')
+	uri = url.replace("https","http").replace(url.split('.')[2].split('/')[0],'top')
 	type = [('Referer',url)]
 	link = getUrl(uri,headers=type)
 	r ='<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>'
@@ -283,6 +283,32 @@ def Pre_link_pipocao(url):
 		sys.exit()
 		
 def Pre_link_netcine(url):
+	if '/episode/' in url:
+		link = abrir_url(url).replace('\n','')
+		items_name = []
+		items_url = []
+		reg = re.compile('<iframe.*?src="(.*?)" frameborder=.*?></iframe>').findall(link)
+		for url in reg:
+			if 'dub' in url or 'Dublado' in link:
+				items_names = 'Dublado'
+				items_name.append(items_names)
+				items_url.append(url)
+			elif 'leg' in url or 'Legendado' in link:
+				items_names = 'Legendado'
+				items_name.append(items_names)		
+				items_url.append(url)			
+			elif 'Nacional' in link:
+				items_names = 'Dublado(Nacional)'
+				items_name.append(items_names)
+				items_url.append(url)
+		opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', items_name)
+		if opcao>= 0:
+			Pre_link_netcine0(items_url[opcao])
+	else:
+		Pre_link_netcine0(url)
+
+		
+def Pre_link_netcine0(url):
 	a = abrir_url(url)
 	b = re.compile('<iframe src="(.*?)"').findall(a)[0]
 	link = abrir_url(b)
@@ -301,15 +327,12 @@ def Pre_link_netcine(url):
 	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', items_name)
 	if opcao>= 0:
 		linkss = items_url[opcao] 
-		linkss+='|Referer=http://netcine.us/'
+		#linkss+='|Referer=http://netcine.us/'
 		liz = xbmcgui.ListItem(name, iconImage=iconimage)
-	#	liz.setInfo(type='Video', infoLabels={'Title':name})
-	#	liz.setProperty("IsPlayable","true")
 		liz.setPath(linkss)
 		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 	else:
 		sys.exit()
-
 		
 def Pre_link_mmfilmes(url):
 	ref = url
@@ -416,7 +439,7 @@ def Other(url):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 		
 def Check_update():
-	versao='15.0'
+	versao='16.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
