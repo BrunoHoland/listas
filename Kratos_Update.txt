@@ -432,6 +432,50 @@ def kratos_resolver_ok_ru(url):
 	else:
 		sys.exit(0)    
 	
+import urlparse	
+def week_series(url):
+	a = getUrl(url)
+	urls = []
+	names = []
+	b = BeautifulSoup(a).findAll('a')
+	for c in b:
+		if 'RapidVideo' in a or '/plays/bg.php?v=' in a:
+			uri = c['href']
+			uri_name = c.text
+			if 'www.rapidvideo.com' in uri:
+				urls.append(uri)
+				names.append('RapidVideo')
+			if '/plays/bg.php?v=' in uri:
+				urls.append(uri)
+				names.append('Principal [SD]')
+	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', names)
+	if opcao>= 0:
+		repro = urls[opcao]
+		if 'www.rapidvideo.com' in repro:
+			Pre_link_rapidvideo(repro)
+		if '/plays/bg.php?v=' in repro:
+			play = 'https://www.blogger.com/video-play.mp4?contentId=%s' % urlparse.parse_qsl(repro)[0][1].decode('base64')	
+			liz = xbmcgui.ListItem(name, iconImage=iconimage)
+			liz.setPath(get_request_direct(play))
+			xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)			
+def get_request_direct(url):  
+    req = urllib2.Request(url)  
+    req.add_header("Accept", "text/html,*/*")  
+    req.add_header("Connection", "Keep-Alive")
+    op = urllib2.build_opener()  
+    f = op.open(req)
+    return f.url
+	
+def seriesflixhd(url):
+	a = getUrl(url)
+	b = BeautifulSoup(a).findAll('iframe')[0]['src']
+	if 'www.seriesflixhd.com' in b:
+			url = BeautifulSoup(getUrl(b)).findAll('source')[0]['src']
+	url2 = url
+	liz = xbmcgui.ListItem(name, iconImage=iconimage)
+	liz.setPath(url2)
+	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
+			
 def Other(url):
 	url2 = url
 	liz = xbmcgui.ListItem(name, iconImage=iconimage)
@@ -439,7 +483,7 @@ def Other(url):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 		
 def Check_update():
-	versao='16.0'
+	versao='17.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -452,7 +496,7 @@ def Check_update():
 		dialog.ok('-=Kratos Kodi Br =-','Versão do player: '+versao,'Versão do player disponível: '+check,'Atualizando o player do add-on feche e abra novamente.')
 		sys.exit(0) 
 
-Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru','vk_com','megatorrentshd.com']	
+Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru','vk_com','megatorrentshd.com','www.seriesflixhd.com','week-series','minhaserie.org']	
 def Resolvers(url,name,iconimage):   	
 	Check_update()
 	rURL = url.replace(';','')
@@ -499,6 +543,14 @@ def Resolvers(url,name,iconimage):
 	elif 'megatorrentshd.com' in rURL and not 'Other://' in rURL:
 		link = rURL.replace('vk_com','vk.com')
 		Magent_Torrent(link)					
+										
+	elif 'www.seriesflixhd.com' in rURL and not 'Other://' in rURL:
+		link = rURL
+		seriesflixhd(link)					
+										
+	elif 'week-series' in rURL and not 'Other://' in rURL:
+		link = rURL
+		week_series(link)					
 		
 	elif 'Other://' in rURL:
 		link = rURL
