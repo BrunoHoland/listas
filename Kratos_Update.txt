@@ -223,12 +223,9 @@ def Pre_link_rede_canais(url):
 	r ='<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>'
 	match = re.compile(r).findall(link)
 	for urls in match:
-		links = getUrl(urls.replace(urls.split('.')[1].split('/')[0],'com'))#,headers=[('Referer','http://www.redecanais.cc/')])
-		xbmc.log(links)
-		matchs = re.compile('file: "(.*?)",').findall(links)[0]
+		links = getUrl(urls)#,headers=[('Referer','http://www.redecanais.cc/')])
+		matchs = re.compile('link: "(.*?mp4)",').findall(links)[0]
 		liz = xbmcgui.ListItem(name, iconImage=iconimage)
-	#	liz.setInfo(type='Video', infoLabels={'Title':name})
-	#	liz.setProperty("IsPlayable","true")
 		plays  = matchs+"|Referer="+urls
 		liz.setPath(plays)
 		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
@@ -492,7 +489,7 @@ def Other(url):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 		
 def Check_update():
-	versao='18.0'
+	versao='19.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
