@@ -142,8 +142,10 @@ def mmfilmes(url):
 				for name,url in  re.compile("if.e == (.*?).{.*?addiframe.'(.*?)'.").findall(episodios):
 					nome = 'Episódio %s - %s'% (name,idioma.replace('leg','Legendado').replace('dub','Dublado'))
 					uri = url if url.startswith('http') else 'http://player.mmfilmes.tv/'+url		
-					arquivos.append([nome,url])
-					add_link(nome,uri,200, img, fanart,'[]')
+					arquivos.append([nome,uri])
+					arquivos.sort(key=lambda arquivos: int(re.compile('dio (.*?) -').findall(arquivos[0])[0]))
+			for a,b in arquivos:
+				add_link(a,b,200, img, fanart,'[]')
 
 		else:
 				linkTV = abrir_url(url,headers=referer)
@@ -153,7 +155,7 @@ def mmfilmes(url):
 					add_link(temp,url,999, img, fanart,items)
 		
 def Check_update():
-	versao='2.0'
+	versao='3.0'
 	Source_Update = os.path.join(home, 'Site_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Site_Kratos.py')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
