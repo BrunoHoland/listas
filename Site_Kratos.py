@@ -153,9 +153,9 @@ def mmfilmes(url):
 					add_link(temp,url,999, img, fanart,items)
 		
 def Check_update():
-	versao='1.0'
+	versao='2.0'
 	Source_Update = os.path.join(home, 'Site_Kratos.py')
-	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
+	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Site_Kratos.py')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
 	if versao==check:
 		pass
@@ -268,5 +268,3 @@ try:
     description=urllib.unquote_plus(params["description"])
 except:
     pass
-if mode==200:
-	dialog.notification('','Não foi possivel acessar o servidor.',icon)
