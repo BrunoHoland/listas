@@ -489,7 +489,7 @@ def Other(url):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 		
 def Check_update():
-	versao='19.0'
+	versao='20.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
