@@ -306,9 +306,12 @@ def Pre_link_netcine(url):
 
 		
 def Pre_link_netcine0(url):
-	a = abrir_url(url)
-	b = re.compile('<iframe src="(.*?)"').findall(a)[0]
-	link = abrir_url(b)
+	a = getUrl(url)
+	b = re.compile('src="(.*?)"').findall(a)[0]
+	b = getUrl(b)
+	c = re.compile('href.*?"(.*?)"').findall(b)[0]
+	link = c.replace('autentica.php?d=','').replace('&n','.php?n')
+	link = abrir_url(link)
 	reg = re.compile('file: "(.*?)"').findall(link)
 	items_url = []
 	items_name = []
@@ -529,7 +532,7 @@ def Other(url):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 		
 def Check_update():
-	versao='21.0'
+	versao='22.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
