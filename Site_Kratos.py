@@ -36,6 +36,7 @@ home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
 plugin = addon.getSetting('plugin')
 icon = os.path.join(home, 'icon.png')
 FANART = os.path.join(home, 'fanart.jpg')
+Site = xbmc.translatePath(os.path.join(home, 'Site.txt'))
 dialog=xbmcgui.Dialog()
 
 def abrir_url(url, headers=None):
@@ -118,7 +119,6 @@ def week_series(url):
 			temp = a[0].replace('temp','')+'ª temporada'
 			add_link(temp,url,999, img, fanart,a[1])
 
-import Player_Kratos
 					
 def mmfilmes(url):
 	referer = [('Referer','http://www.mmfilmes.tv/')]
@@ -136,26 +136,41 @@ def mmfilmes(url):
 		for url,name in rew:
 			add_link(name,url,999, img, fanart,name)
 	else:
-		if '{addiframe(' in description:
-			arquivos = []
-			for idioma,episodios in re.compile("if.t == '(.*?)'(.*?)[)];}}").findall(description):
-				for name,url in  re.compile("if.e == (.*?).{.*?addiframe.'(.*?)'.").findall(episodios):
-					nome = 'Episódio %s - %s'% (name,idioma.replace('leg','Legendado').replace('dub','Dublado'))
-					uri = url if url.startswith('http') else 'http://player.mmfilmes.tv/'+url		
-					arquivos.append([nome,uri])
-					arquivos.sort(key=lambda arquivos: int(re.compile('dio (.*?) -').findall(arquivos[0])[0]))
+		if '° Temporada' in description:
+			name = description.replace('° Temporada','')
+			base_mmf = 'http://player.mmfilmes.tv'
+			tempo = int(name)
+			referer = [('Referer','http://www.mmfilmes.tv/')]
+			linkTV  = abrir_url(url, headers=referer)		
+			linkTV = linkTV.replace("$('#player').css('display','none');","").replace("$('#Svplayer').css('display','block');","").replace('\t','').replace('\n','')
+			try:
+				match = re.compile('if.s == '+str(tempo)+'.{(.*)}\s*if.s == '+str(tempo+1)+'.{').findall(linkTV)
+				matchsd = match[0].replace("$('#player').css('display','none');","").replace("$('#Svplayer').css('display','block');","").replace('\t','').replace('\n','')
+			except:
+				match =linkTV.split('if(s == '+str(tempo)+'){')[1]
+				matchsd = match
+			arquivos =[]
+			a = re.compile("if.t == '(.*?)'.{(.*?);}}").findall(matchsd)
+			for idioma,conteudo in a:
+					matchs = re.compile("if.e == (.*?).{.*?addiframe.'(.*?)'.").findall(conteudo)
+					for name,url in matchs:
+						nome = 'Episódio %s - %s'% (name,idioma.replace('leg','Legendado').replace('dub','Dublado'))
+						uri = url if url.startswith('http') else 'http://player.mmfilmes.tv/'+url		
+						arquivos.append([nome,uri])
+						arquivos.sort(key=lambda arquivos: int(re.compile('dio (.*?) -').findall(arquivos[0])[0]))
 			for a,b in arquivos:
-				add_link(a,b,200, img, fanart,'[]')
-
+				if 'drive.google' in b:
+					b = 'Other://plugin://plugin.video.gdrive?mode=streamURL&amp;url='+b.replace('/preview','/view')
+				add_link(a,b,200, img, fanart,'episodios')
 		else:
-				linkTV = abrir_url(url,headers=referer)
-				at =  linkTV.replace('\n','').replace("$('#player').css('display','none');","").replace("$('#Svplayer').css('display','block');","").replace('\n','').replace('\t','')
-				for temp,items in re.compile('if.s == (.*?).{(SeasonID.*?[)];Now..;}}})').findall(at):
-					temp = temp+'ª Temporada'
-					add_link(temp,url,999, img, fanart,items)
-		
+			referer = [('Referer','http://www.mmfilmes.tv/')]
+			linkTV  = abrir_url(url, headers=referer)		
+			match  = re.compile('if.s == (.*?).{').findall(linkTV)
+			for a in match:
+				temp = a+'° Temporada'
+				add_link(temp,url,999, img, fanart,temp)
 def Check_update():
-	versao='3.0'
+	versao='4.0'
 	Source_Update = os.path.join(home, 'Site_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Site_Kratos.py')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
