@@ -217,7 +217,7 @@ def Pre_link_animesonlineq(url):
 #RESOLVERS DIA 10/05/2018
 ###		
 def Pre_link_rede_canais(url):
-	uri = url.replace("https","http").replace(url.split('.')[2].split('/')[0],'top')
+	uri = url.replace("https","http").replace(url.split('.')[2].split('/')[0],'cz')
 	type = [('Referer',url)]
 	link = getUrl(uri,headers=type)
 	r ='<iframe name="Player".*?src="(.*?)".*?allowFullScreen>\s*</iframe>'
@@ -280,7 +280,7 @@ def Pre_link_pipocao(url):
 		sys.exit()
 		
 def Pre_link_netcine(url):
-	if '/episode/' in url:
+	if True:
 		link = abrir_url(url).replace('\n','')
 		items_name = []
 		items_url = []
@@ -301,20 +301,23 @@ def Pre_link_netcine(url):
 		opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', items_name)
 		if opcao>= 0:
 			Pre_link_netcine0(items_url[opcao])
-	else:
-		Pre_link_netcine0(url)
 
 		
 def Pre_link_netcine0(url):
-	a = getUrl(url)
+	a = abrir_url(url)
 	b = re.compile('src="(.*?)"').findall(a)[0]
-	b = getUrl(b)
-	c = re.compile('href.*?"(.*?)"').findall(b)[0]
-	link = c.replace('autentica.php?d=','').replace('&n','.php?n')
+	log('Link 2: %s' % b)
+	if '/desktop' in b:
+		link = b
+	else:
+		b = abrir_url(b)
+		c = re.compile('href.*?"(.*?)"').findall(b)[0]
+		link = c.replace('autentica.php?d=','').replace('&n','.php?n')
+		log('Link 3: %s' % link)
 	link = abrir_url(link)
-	reg = re.compile('file: "(.*?)"').findall(link)
-	items_url = []
 	items_name = []
+	items_url = []
+	reg = re.compile('file: "(.*?)"').findall(link)
 	for url in reg:
 		if 'ALTO' in url:
 			items_names = 'Qualidade Alta'
@@ -326,10 +329,11 @@ def Pre_link_netcine0(url):
 			items_url.append(url)		
 	opcao = xbmcgui.Dialog().select('-=Kratos Kodi Br =-', items_name)
 	if opcao>= 0:
-		linkss = items_url[opcao] 
-		#linkss+='|Referer=http://netcine.us/'
-		liz = xbmcgui.ListItem(name, iconImage=iconimage)
-		liz.setPath(linkss)
+		repro = items_url[opcao]
+		liz = xbmcgui.ListItem(name, iconImage=iconimage, thumbnailImage=iconimage)
+		liz.setInfo(type='Video', infoLabels={'Title':name})
+		liz.setProperty("IsPlayable", "true")
+		liz.setPath(repro)
 		xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 	else:
 		sys.exit()
@@ -532,7 +536,7 @@ def Other(url):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)		
 		
 def Check_update():
-	versao='22.0'
+	versao='23.0'
 	Source_Update = os.path.join(home, 'Player_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Kratos_Update.txt')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
