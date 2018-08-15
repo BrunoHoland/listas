@@ -232,7 +232,7 @@ def Pre_link_rede_canais(url):
 	link = abrir_url(uri)
 	embed = re.compile('<iframe name="Player" ="" src="(.*?)" frameborder="0" height="400" scrolling="no" width="640" allowFullScreen>').findall(link)[0]
 	player = abrir_url(embed)
-	player = player.split(' link: "')[-1].split('"')[0]#re.compile('link: "(.*?.mp4)",\s*hide: "true",').findall(player)[0]
+	player = re.compile('src="(.*?mp4)"').findall(player)[0]#player.split(' link: "')[-1].split('"')[0]
 	repro = player+'|Referer='+embed
 	
 	liz = xbmcgui.ListItem(name, iconImage=iconimage)
