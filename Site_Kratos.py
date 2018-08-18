@@ -102,22 +102,24 @@ def week_series(url):
 	link = abrir_url(url)
 	soup = BeautifulSoup(link)
 	try:
-		img = soup('div',{'class':'poster'})[0].img['src']
+		img = soup('meta',{'property':'og:image'})[0]['content']
 	except:
 		img = icon
 	if 'ª temporada' in temporada:
-		for b in re.compile('<div class="col-md-6">.*?&#8211;(.*?)<br />(.*?<.*?></div>)').findall(description):
+		for b in re.compile('<div class="col.*?">.*?&#8211;(.*?)<br .>(.*?<.*?><.div>)').findall(description):
 			add_link(name+'  '+ b[0].title(),url,30003, img, fanart,'')
-			for uri,nami in re.compile('<a href="(.*?)" rel="nofollow" target="_blank">(.*?)</a>').findall(b[1]):
+			for uri,nami in re.compile('<a.*?href="(.*?)".*?target="_blank">(.*?)</a>').findall(b[1]):
 				nami = nami.replace('&#8211;','-')
+				uri = uri.replace('#038;','')
 				add_link(nami,uri,200, img, fanart,'')
 	else:
 		fas = link.replace('\t','')		
 		fa = fas.replace('\n','')		
-		match =re.compile('<div class="collapse" id="(.*?)">(.*?</div></div></div><p>)').findall(fa)
+		match =re.compile('<div class=".*?" id="(.*?)">(.*?</div></div>)').findall(fa)
 		for a in match:
 			temp = a[0].replace('temp','')+'ª temporada'
-			add_link(temp,url,999, img, fanart,a[1])
+			if 'target="_blank">' in a[1]:
+				add_link(temp,url,999, img, fanart,a[1])
 
 					
 def mmfilmes(url):
@@ -170,7 +172,7 @@ def mmfilmes(url):
 				temp = a+'° Temporada'
 				add_link(temp,url,999, img, fanart,temp)
 def Check_update():
-	versao='4.0'
+	versao='5.0'
 	Source_Update = os.path.join(home, 'Site_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Site_Kratos.py')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
