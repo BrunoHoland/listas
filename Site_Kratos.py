@@ -171,8 +171,29 @@ def mmfilmes(url):
 			for a in match:
 				temp = a+'° Temporada'
 				add_link(temp,url,999, img, fanart,temp)
+def megatorrentshd(url):
+	link = abrir_url(url)
+	soup = BeautifulSoup(link)
+	rew = soup('div',{'class':"peli"})
+	for a in rew:
+		name  =  a.img['alt'].encode('utf-8')
+		url   =  a.a['href'].encode('utf-8')
+		img   =  a.img['src'].encode('utf-8')
+		add_link(name,url,200, img, fanart,'[]')
+	nameList = soup.findAll('div',attrs={"class": 'wp-pagenavi'})
+	pag = len(nameList)
+	for items in nameList:#
+		#pagina_name = items_Beaulti(items.find("span", { "class" : "pages" }))
+		pagina_url = items.findAll(attrs={ "class" : "nextpostslink" })[0].get('href')
+		add_link('[COLOR green]Proxima Página[/COLOR]',pagina_url,999, icon, fanart,'[]')
+	if pag==0:
+		page = re.compile('<link rel="next" href="(.*)" />').findall(link)
+		for a in page:
+			#addDir('[COLOR green]Proxima Página[/COLOR]',a,2,artfolder + 'Proxima.png',True)
+			add_link('[COLOR green]Proxima Página[/COLOR]',a,999, icon, fanart,'[]')
+		
 def Check_update():
-	versao='5.0'
+	versao='6.0'
 	Source_Update = os.path.join(home, 'Site_Kratos.py')
 	base_update = abrir_url('https://raw.githubusercontent.com/brunolojino/listas/master/Site_Kratos.py')
 	check = re.compile("versao='(.*?)'").findall(base_update)[0]
@@ -185,7 +206,7 @@ def Check_update():
 		dialog.ok('-=Kratos Kodi Br =-','Versão do Web Scraper: '+versao,'Versão do Web Scraper disponível: '+check,'Atualizando o Web Scraper do add-on feche e abra novamente.')
 		sys.exit(0) 
 
-Sites_kratos = ['www.assistindoanime.com','netcine.us/','week-series.com','mmfilmes.tv']	
+Sites_kratos = ['www.assistindoanime.com','netcine.us/','week-series.com','mmfilmes.tv','megatorrentshd']	
 def Capturar_sites(url,name,iconimage,description):   	
 	Check_update()
 	rURL = url.replace(';','')
@@ -201,8 +222,8 @@ def Capturar_sites(url,name,iconimage,description):
 	elif Sites_kratos[3] in url:
 		link = rURL
 		mmfilmes(link)
-		
-		
+	elif Sites_kratos[4] in rURL:
+		megatorrentshd(rURL)
 def add_link(name, url, mode, iconimage, fanart,description):
 	u = sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&iconimage="+urllib.quote_plus(iconimage)+"&description="+urllib.quote_plus(description)
 	liz = xbmcgui.ListItem(name, iconImage = "DefaultVideo.png", thumbnailImage = iconimage)
